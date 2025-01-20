@@ -1,0 +1,62 @@
+services:
+  db:
+    container_name: postgres
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "ny_taxi"
+    ports:
+      - "5433:5432"
+    volumes:
+      - vol-pgdata:/var/lib/postgresql/data
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "pgadmin@pgadmin.com"
+      PGADMIN_DEFAULT_PASSWORD: "pgadmin"
+    ports:
+      - "8080:80"
+    volumes:
+      - vol-pgadmin_data:/var/lib/pgadmin
+
+  loader:
+    container_name: data-loader
+    image: python:3.12.8
+    working_dir: /app
+    volumes:
+      - ./data:/app/data
+      - ./data-loading-parquet.py:/app/data-loading-parquet.py
+      - ./requirements.txt:/app/requirements.txt
+    depends_on:
+      - db
+    entrypoint: >
+      sh -c "
+      pip install -r /app/requirements.txt &&
+      curl -o /app/data/data.parquet https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2019-10.parquet &&
+      curl -o /app/data/taxi_zone_lookup.csv https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv &&
+      python /app/data-loading-parquet.py
+      --user postgres
+      --password postgres
+      --host db
+      --port 5432
+      --db ny_taxi
+      --tb green_tripdata
+      --url /app/data/data.parquet &&
+      python /app/data-loading-parquet.py
+      --user postgres
+      --password postgres
+      --host db
+      --port 5432
+      --db ny_taxi
+      --tb taxi_zone_lookup
+      --url /app/data/taxi_zone_lookup.csv
+      "
+
+volumes:
+  vol-pgdata:
+    name: vol-pgdata
+  vol-pgadmin_data:
+    name: vol-pgadmin_data
