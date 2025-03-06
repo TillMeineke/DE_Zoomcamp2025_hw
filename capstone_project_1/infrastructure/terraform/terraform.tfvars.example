@@ -1,0 +1,19 @@
+# Authentication credentials
+redshift_master_username = "admin"
+redshift_master_password = "ExamplePassword123!"  # Replace with a strong password
+
+# AWS configuration
+aws_region = "eu-central-1"
+
+# Environment
+environment = "dev"  # Options: dev, test, prod
+
+# Resource configuration - Optimized for small workload (max 10 users, 1-2 month project)
+redshift_node_type = "dc2.small"  # Smallest Redshift node type for minimal workloads
+redshift_cluster_nodes = 1  # Single node is sufficient for limited data and users
+
+# Storage
+s3_bucket_name_prefix = "job-market-data"  # Will be prefixed with environment
+
+# Database settings
+athena_database_name = "job_market_bronze"
