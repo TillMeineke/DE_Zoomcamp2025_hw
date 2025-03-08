@@ -1,0 +1,264 @@
+[
+    {
+        "user": "U05HDNRKR7X",
+        "type": "message",
+        "ts": "1705595115.919809",
+        "client_msg_id": "d99cc007-47e6-49e6-9d08-a6a672614492",
+        "text": "AWS does provide 300$ credit for Redshift Serverless for 2 or 3 months. Redshift is the AWS alternative for Bigquery.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "49e73dc9aca2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-02\/6396493326903_49e73dc9aca2640eb070_72.jpg",
+            "first_name": "Aditya",
+            "real_name": "Aditya Tiwari",
+            "display_name": "Aditya Tiwari",
+            "team": "T01ATQK62F8",
+            "name": "adityatiwarimail006mi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705556766.144759",
+        "parent_user_id": "U05168A1W3V",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fNbEI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "AWS does provide 300$ credit for Redshift Serverless for 2 or 3 months. Redshift is the AWS alternative for Bigquery."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U05168A1W3V",
+                    "U082EEYHMDK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U05HDNRKR7X",
+        "type": "message",
+        "ts": "1705595296.595299",
+        "client_msg_id": "69d40da7-7279-4362-9fd1-9f864d0dc4e3",
+        "text": "Github codespaces will be more convenient compared to EC2. I'm using local Ubuntu though.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "49e73dc9aca2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-02\/6396493326903_49e73dc9aca2640eb070_72.jpg",
+            "first_name": "Aditya",
+            "real_name": "Aditya Tiwari",
+            "display_name": "Aditya Tiwari",
+            "team": "T01ATQK62F8",
+            "name": "adityatiwarimail006mi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705422256.371629",
+        "parent_user_id": "U05G0GP9AUQ",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VYm5K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Github codespaces will be more convenient compared to EC2. I'm using local Ubuntu though."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05HDNRKR7X",
+        "type": "message",
+        "ts": "1705595585.363769",
+        "client_msg_id": "624c5b70-e16b-4c84-bbc4-f86d1b2f9c8a",
+        "text": "I made my first use of AWS in the course today. I managed to authenticate Mage with AWS and export the transformed taxi rides data to an AWS S3 bucket in a parquet file. If you're trying that out and are stuck do feel free to reach out on this channel.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "49e73dc9aca2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-02\/6396493326903_49e73dc9aca2640eb070_72.jpg",
+            "first_name": "Aditya",
+            "real_name": "Aditya Tiwari",
+            "display_name": "Aditya Tiwari",
+            "team": "T01ATQK62F8",
+            "name": "adityatiwarimail006mi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705595585.363769",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1730189111.373959",
+        "reply_users": [
+            "U07LYVAQH8W",
+            "U05HDNRKR7X"
+        ],
+        "replies": [
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1730143299.570269"
+            },
+            {
+                "user": "U05HDNRKR7X",
+                "ts": "1730174135.722049"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1730189111.373959"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "50rHR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I made my first use of AWS in the course today. I managed to authenticate Mage with AWS and export the transformed taxi rides data to an AWS S3 bucket in a parquet file. If you're trying that out and are stuck do feel free to reach out on this channel."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U05168A1W3V",
+                    "U057GC2CG4W",
+                    "U04QXEDPD4G",
+                    "U082EEYHMDK"
+                ],
+                "count": 4
+            },
+            {
+                "name": "rocket",
+                "users": [
+                    "U057GC2CG4W",
+                    "U03S8TF9USK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U02TNEJLC84",
+        "type": "message",
+        "ts": "1705630956.163859",
+        "edited": {
+            "user": "U02TNEJLC84",
+            "ts": "1705630980.000000"
+        },
+        "client_msg_id": "d8ed9b70-68a2-43fa-906f-ec04b9716994",
+        "text": "Still loading, but fresh out of the oven for ya'll. Hope it helps. :slightly_smiling_face:<https:\/\/www.youtube.com\/watch?v=RxOXvxYjlqA>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "bf49548fbad6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-03-24\/4991276822935_bf49548fbad6f05aface_72.jpg",
+            "first_name": "Michael",
+            "real_name": "Michael Shoemaker",
+            "display_name": "Michael Shoemaker",
+            "team": "T01ATQK62F8",
+            "name": "michaelshoemaker50",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705422238.522259",
+        "parent_user_id": "U05G0GP9AUQ",
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.youtube.com\/watch?v=RxOXvxYjlqA",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/RxOXvxYjlqA\/hqdefault.jpg",
+                "thumb_width": 120,
+                "thumb_height": 90,
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/RxOXvxYjlqA?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"Installing Docker and Docker Compose on an EC2 Instance\"><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "id": 1,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=RxOXvxYjlqA",
+                "fallback": "YouTube Video: Installing Docker and Docker Compose on an EC2 Instance",
+                "title": "Installing Docker and Docker Compose on an EC2 Instance",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=RxOXvxYjlqA",
+                "author_name": "Data Slinger",
+                "author_link": "https:\/\/www.youtube.com\/@dataslinger6379",
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H7uNg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Still loading, but fresh out of the oven for ya'll. Hope it helps. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face",
+                                "unicode": "1f642"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=RxOXvxYjlqA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands::skin-tone-4",
+                "users": [
+                    "U057GC2CG4W"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U05J9UVURV2"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

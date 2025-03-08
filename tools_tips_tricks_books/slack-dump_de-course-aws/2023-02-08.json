@@ -1,0 +1,72 @@
+[
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675908338.770749",
+        "client_msg_id": "7dd32a89-cbec-4fab-88c2-8df1fc0fe589",
+        "text": "Has anyone done the setup week3 on Redshift? Are you using planning on using Redshift Spectrum?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675908338.770749",
+        "reply_count": 5,
+        "reply_users_count": 2,
+        "latest_reply": "1676017447.355109",
+        "reply_users": [
+            "U030YJBRE20",
+            "U04K5Q7V326"
+        ],
+        "replies": [
+            {
+                "user": "U030YJBRE20",
+                "ts": "1675944189.363569"
+            },
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675948942.688899"
+            },
+            {
+                "user": "U030YJBRE20",
+                "ts": "1675955800.314139"
+            },
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675996694.500439"
+            },
+            {
+                "user": "U030YJBRE20",
+                "ts": "1676017447.355109"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D\/y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Has anyone done the setup week3 on Redshift? Are you using planning on using Redshift Spectrum?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

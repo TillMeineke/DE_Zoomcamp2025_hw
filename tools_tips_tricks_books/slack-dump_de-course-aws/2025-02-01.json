@@ -1,0 +1,179 @@
+[
+    {
+        "user": "U07MLLSKCUA",
+        "type": "message",
+        "ts": "1738437982.675149",
+        "client_msg_id": "f3a0f36c-6dfc-4b1a-a41c-1d8fba66e60f",
+        "text": "<https:\/\/www.youtube.com\/watch?v=Ni37SKnJTaU|This video> helped me a lot to setup Kestra on AWS. Thank you Michael Shoemaker",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "100796daf577",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-23\/7792223177280_100796daf577201c46d7_72.png",
+            "first_name": "Till",
+            "real_name": "Till Meineke",
+            "display_name": "Till",
+            "team": "T01ATQK62F8",
+            "name": "till.meineke",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738437982.675149",
+        "reply_count": 20,
+        "reply_users_count": 4,
+        "latest_reply": "1740626358.601129",
+        "reply_users": [
+            "U07MLLSKCUA",
+            "U07LYVAQH8W",
+            "U082EEYHMDK",
+            "U06DJNFMWDB"
+        ],
+        "replies": [
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738503202.148299"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1738589042.115189"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738589637.640229"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1738590144.140499"
+            },
+            {
+                "user": "U082EEYHMDK",
+                "ts": "1738742110.138819"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738742934.482799"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1738744225.392649"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738744449.739489"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738744633.482489"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1738745043.526479"
+            },
+            {
+                "user": "U082EEYHMDK",
+                "ts": "1738749795.007729"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1738753263.467769"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738778677.362889"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1738779709.474379"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738780039.783839"
+            },
+            {
+                "user": "U07LYVAQH8W",
+                "ts": "1738784487.961819"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1738787744.254369"
+            },
+            {
+                "user": "U06DJNFMWDB",
+                "ts": "1740572999.937569"
+            },
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1740603452.469989"
+            },
+            {
+                "user": "U06DJNFMWDB",
+                "ts": "1740626358.601129"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.youtube.com\/watch?v=Ni37SKnJTaU",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/Ni37SKnJTaU\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/Ni37SKnJTaU?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"How to Deploy Kestra to AWS EC2 VM with RDS and S3\"><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "id": 1,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=Ni37SKnJTaU",
+                "fallback": "YouTube Video: How to Deploy Kestra to AWS EC2 VM with RDS and S3",
+                "title": "How to Deploy Kestra to AWS EC2 VM with RDS and S3",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=Ni37SKnJTaU",
+                "author_name": "Kestra",
+                "author_link": "https:\/\/www.youtube.com\/@kestra-io",
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3sU5L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=Ni37SKnJTaU",
+                                "text": "This video"
+                            },
+                            {
+                                "type": "text",
+                                "text": " helped me a lot to setup Kestra on AWS. Thank you Michael Shoemaker"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U02TNEJLC84",
+                    "U083VK7F04V",
+                    "U07LYVAQH8W",
+                    "U082EEYHMDK"
+                ],
+                "count": 4
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U07T39T7Y1J"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

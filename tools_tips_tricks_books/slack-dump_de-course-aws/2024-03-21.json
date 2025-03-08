@@ -1,0 +1,55 @@
+[
+    {
+        "user": "U05G0GP9AUQ",
+        "type": "message",
+        "ts": "1711082440.101229",
+        "client_msg_id": "17847031-fb7e-4680-b6f5-8e2f3657d8d2",
+        "text": "how did you people load the partitioned dataset from s3 in to redshift",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gdb57b8b087c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/db57b8b087c45505bc274e7cb13dd43e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "sharathchandran",
+            "real_name": "sharathchandran komuravelli",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "sharathchandrankomura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1711082440.101229",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1711831733.145119",
+        "reply_users": [
+            "U06H2VBMZ8X"
+        ],
+        "replies": [
+            {
+                "user": "U06H2VBMZ8X",
+                "ts": "1711831733.145119"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6tT9+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "how did you people load the partitioned dataset from s3 in to redshift"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

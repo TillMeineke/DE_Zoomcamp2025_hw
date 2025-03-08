@@ -1,0 +1,55 @@
+[
+    {
+        "user": "U06DV9T8FRA",
+        "type": "message",
+        "ts": "1706570719.099469",
+        "client_msg_id": "d8fde0e2-f7d3-4c87-b6e3-837124a69aed",
+        "text": "Guys, I faced issues with setting up a GCP account.\nSo, I have creates an AWS account. is the free tier in AWS enough for this course?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gac6fdaaf09f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ac6fdaaf09f3d81f0a9032bae3572193.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "ASHWIN",
+            "real_name": "ASHWIN S",
+            "display_name": "ASHWIN S",
+            "team": "T01ATQK62F8",
+            "name": "sashwin2003",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706570719.099469",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1706690912.532829",
+        "reply_users": [
+            "U065H846QQK"
+        ],
+        "replies": [
+            {
+                "user": "U065H846QQK",
+                "ts": "1706690912.532829"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VnTo4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Guys, I faced issues with setting up a GCP account.\nSo, I have creates an AWS account. is the free tier in AWS enough for this course?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

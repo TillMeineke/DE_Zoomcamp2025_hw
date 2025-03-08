@@ -1,0 +1,42 @@
+[
+    {
+        "user": "U065H846QQK",
+        "type": "message",
+        "ts": "1706690912.532829",
+        "client_msg_id": "8bc5a5e0-ab38-4ba8-9556-326f332c2511",
+        "text": "Yes it is, hope you got free credits",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "e5d4dee0ba95",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-11-13\/6210365725040_e5d4dee0ba956836107d_72.jpg",
+            "first_name": "Madukoma",
+            "real_name": "Madukoma Blessed",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "blessedmadukoma",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706570719.099469",
+        "parent_user_id": "U06DV9T8FRA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MXD8K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes it is, hope you got free credits"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

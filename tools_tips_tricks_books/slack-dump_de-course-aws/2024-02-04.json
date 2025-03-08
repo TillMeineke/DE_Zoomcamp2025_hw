@@ -1,0 +1,55 @@
+[
+    {
+        "user": "U06ADQ65879",
+        "type": "message",
+        "ts": "1707062518.226819",
+        "client_msg_id": "35f56655-1cb5-4ea7-956d-7967fe13bae3",
+        "text": "<@U06CHQ6T2TT> you need to install awscli then in terminal run aws configure .Fill in the required access key, secret key and <http:\/\/region.It|region.It> will then create a .aws folder in you root directory.Now add ~\/.aws:\/root\/.aws in docker compose volumes.Run the file and Wallah you have now configured mage",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g442988b0009",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/442988b0009b662808ee3dfe3806893b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Faran",
+            "real_name": "Faran Taimoor Butt",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "faranbutt789",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706869294.209739",
+        "parent_user_id": "U06D31H28MP",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0jlXp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U06CHQ6T2TT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " you need to install awscli then in terminal run aws configure .Fill in the required access key, secret key and "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/region.It",
+                                "text": "region.It"
+                            },
+                            {
+                                "type": "text",
+                                "text": " will then create a .aws folder in you root directory.Now add ~\/.aws:\/root\/.aws in docker compose volumes.Run the file and Wallah you have now configured mage"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

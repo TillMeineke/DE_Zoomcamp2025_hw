@@ -1,0 +1,57 @@
+[
+    {
+        "user": "U06J5BRC40L",
+        "type": "message",
+        "ts": "1708897470.341969",
+        "client_msg_id": "c1a3f587-ccc3-4ac3-b731-549a644cf4a8",
+        "text": "Yes. More specifically, I've never heard of mage",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "51ee51883900",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-02-28\/6737691952784_51ee51883900378516bf_72.jpg",
+            "first_name": "Miguel",
+            "real_name": "Miguel Torres Costa",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "miguelptcosta1995",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yFqje",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes. More specifically, I've never heard of mage"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "thread",
+                "users": [
+                    "U02TNEJLC84",
+                    "U05AJCBR9NF"
+                ],
+                "count": 2
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U03ND294729"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

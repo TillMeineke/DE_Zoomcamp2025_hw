@@ -1,0 +1,140 @@
+[
+    {
+        "user": "U07MLLSKCUA",
+        "type": "message",
+        "ts": "1738657079.481859",
+        "client_msg_id": "ea1232ec-b81e-41c8-8b93-162f68b7fc15",
+        "text": "first register globally at aws, then you can choose services, ec2 is for compute, s3 for storage, RDS for database. But I am no expert",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "100796daf577",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-23\/7792223177280_100796daf577201c46d7_72.png",
+            "first_name": "Till",
+            "real_name": "Till Meineke",
+            "display_name": "Till",
+            "team": "T01ATQK62F8",
+            "name": "till.meineke",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738589770.019839",
+        "parent_user_id": "U083VK7F04V",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9vHso",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "first register globally at aws, then you can choose services, ec2 is for compute, s3 for storage, RDS for database. But I am no expert"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U082EEYHMDK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U083VK7F04V",
+        "type": "message",
+        "ts": "1738657122.673759",
+        "client_msg_id": "afcaf3c1-c91f-4782-a53d-9744cf317767",
+        "text": "thank you Till",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "ba5adf51c3c7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-12-26\/8207866343831_ba5adf51c3c7da56079f_72.jpg",
+            "first_name": "Josef",
+            "real_name": "Josef",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "y.negahban",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738589770.019839",
+        "parent_user_id": "U083VK7F04V",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DOY38",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thank you Till"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U07MLLSKCUA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U082EEYHMDK",
+        "type": "message",
+        "ts": "1738742110.138819",
+        "client_msg_id": "dfd8278d-c18a-4a80-8400-65bf4910eae9",
+        "text": "Just what I'm looking for! Cheers Michael!\nP\/s: in German your name is literally written as the infamous Michael Schumacher.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "d7c60dfc28b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-12-17\/8209466861648_d7c60dfc28b31dc6e9d1_72.jpg",
+            "first_name": "Hafeez",
+            "real_name": "Hafeez",
+            "display_name": "Hafeez",
+            "team": "T01ATQK62F8",
+            "name": "ahafeezs015",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738437982.675149",
+        "parent_user_id": "U07MLLSKCUA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tNR3J",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Just what I'm looking for! Cheers Michael!\nP\/s: in German your name is literally written as the infamous Michael Schumacher."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

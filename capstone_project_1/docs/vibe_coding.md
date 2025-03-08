@@ -75,4 +75,12 @@ Commands can take up to 15 min to finish, but you can work on different tasks in
 
 Replit on mobile is the future?
 
+## AI DEV Project Setup Prompts
 
+[cursor-ai-rules](http://notes.switchdimension.com/cursor-ai-rules)
+
+Setup in VSCode, create `.github` folder and add `copilot-instructions.md` file for general instructions.
+
+For specific instructions, create a `prompts` folder inside `.github` and add `.prompt.md` files for each prompt.
+
+[AI-Dev-Project-Setup-Prompts](https://notes.switchdimension.com/AI-Dev-Project-Setup-Prompts-18fb5b07a94380758bd6e92baa5e8c98)

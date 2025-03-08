@@ -1,0 +1,40 @@
+[
+    {
+        "user": "U04F8J811DK",
+        "type": "message",
+        "ts": "1678129864.453769",
+        "client_msg_id": "41ee375a-015f-462a-80cb-13e6ac04ac7c",
+        "text": "Hello guys, please who has worked with running spark on cloud and connecting with redshift and s3.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "63aacdd60968",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-12-14\/4524025621732_63aacdd609680ed7bc4f_72.jpg",
+            "first_name": "Ayodeji",
+            "real_name": "Ayodeji Ibimilua",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "ayodejiibimilua4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B5V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hello guys, please who has worked with running spark on cloud and connecting with redshift and s3."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

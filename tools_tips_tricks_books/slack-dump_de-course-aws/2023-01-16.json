@@ -1,0 +1,160 @@
+[
+    {
+        "user": "U04AZ7RTYRM",
+        "type": "message",
+        "ts": "1673887670.799849",
+        "client_msg_id": "bfc41c63-6e66-434e-9f07-353e269ec104",
+        "text": "I did this and worked\n\n```wget <https:\/\/github.com\/docker\/compose\/releases\/download\/v2.15.1\/docker-compose-linux-x86_64> -o docker-compose```",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gf1be007ed35",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f1be007ed35dc88f3b7614270a939d97.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Lee",
+            "real_name": "Lee",
+            "display_name": "Lee",
+            "team": "T01ATQK62F8",
+            "name": "leeheeyeon81",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673827561.154919",
+        "parent_user_id": "U04AZ7RTYRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "u1H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I did this and worked\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "wget "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/docker\/compose\/releases\/download\/v2.15.1\/docker-compose-linux-x86_64"
+                            },
+                            {
+                                "type": "text",
+                                "text": " -o docker-compose"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04AZ7RTYRM",
+        "type": "message",
+        "ts": "1673887684.927749",
+        "client_msg_id": "5ecee22b-b005-4c00-b88c-ff5b7c67da4e",
+        "text": "then `chmod +x docker-compose` to make it executable",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gf1be007ed35",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f1be007ed35dc88f3b7614270a939d97.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Lee",
+            "real_name": "Lee",
+            "display_name": "Lee",
+            "team": "T01ATQK62F8",
+            "name": "leeheeyeon81",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673827561.154919",
+        "parent_user_id": "U04AZ7RTYRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fLO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "then "
+                            },
+                            {
+                                "type": "text",
+                                "text": "chmod +x docker-compose ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "to make it executable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04DDG2JZ40",
+        "type": "message",
+        "ts": "1673898092.458869",
+        "client_msg_id": "0f838d60-69c3-4b8a-8f37-9934a2cbf2d1",
+        "text": "In AWS to connect to your AWS instance with ssh you can use the following command:\n`ssh -i de-zomcamp.pem ubuntu@ip-address`\nwhere de-zoomcamp.pem is the key you created when creating your AWS instance\nip-adress is the ip adress of AWS instance. Be aware that it will change everytime you load it",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "b49d3854e1da",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-11-28\/4434326726852_b49d3854e1daa6d62be6_72.jpg",
+            "first_name": "Pedro",
+            "real_name": "Pedro Marques",
+            "display_name": "Pedro Marques",
+            "team": "T01ATQK62F8",
+            "name": "pedromar2010",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lLd4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "In AWS to connect to your AWS instance with ssh you can use the following command:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ssh -i de-zomcamp.pem ubuntu@ip-address",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nwhere de-zoomcamp.pem is the key you created when creating your AWS instance\nip-adress is the ip adress of AWS instance. Be aware that it will change everytime you load it"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

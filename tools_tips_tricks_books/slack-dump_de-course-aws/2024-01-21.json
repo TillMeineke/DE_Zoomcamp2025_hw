@@ -1,0 +1,150 @@
+[
+    {
+        "user": "U04HYAQFGP6",
+        "type": "message",
+        "ts": "1705866502.227649",
+        "client_msg_id": "b1dc9a46-af6c-446d-aac8-7b4839c2ac76",
+        "text": "could you please share any documentation you referred for Terraform-AWS integration",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g08a69dd7c88",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/08a69dd7c8816d399ea15732e66f1c83.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Swati",
+            "real_name": "Swati Sahu",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "techy.ski",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705770206.592289",
+        "parent_user_id": "U03S8TF9USK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VOALb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "could you please share any documentation you referred for Terraform-AWS integration"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03S8TF9USK",
+        "type": "message",
+        "ts": "1705866812.878429",
+        "client_msg_id": "187fc998-5656-434e-8ca8-3a71a3ee5f75",
+        "text": "Everything is available on Hashicorp website, but really it was just a matter of configuring:\n```provider \"aws\" {}\nresource \"aws_s3_bucket\" \"data-lake-bucket\" {}\nresource \"aws_s3_bucket_versioning\" \"bucket_versioning\" {}```",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "9163651d60bc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-14\/6471261484611_9163651d60bcec9cafea_72.png",
+            "first_name": "Jonathon",
+            "real_name": "Jonathon Kobyluck",
+            "display_name": "Jonathon Kobyluck",
+            "team": "T01ATQK62F8",
+            "name": "comet.cetera",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705770206.592289",
+        "parent_user_id": "U03S8TF9USK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d9FNn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Everything is available on Hashicorp website, but really it was just a matter of configuring:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "provider \"aws\" {}\nresource \"aws_s3_bucket\" \"data-lake-bucket\" {}\nresource \"aws_s3_bucket_versioning\" \"bucket_versioning\" {}"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U05168A1W3V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03S8TF9USK",
+        "type": "message",
+        "ts": "1705866937.058789",
+        "client_msg_id": "7746a9bf-c56e-47fa-85f8-e30d4cbd0fe4",
+        "text": "AWS doesn’t do “projects”, but it does do organizations. I created one under my root account specifically for DE Zoomcamp, so it’s completely independent\/clear of any other data from my normal account.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "9163651d60bc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-14\/6471261484611_9163651d60bcec9cafea_72.png",
+            "first_name": "Jonathon",
+            "real_name": "Jonathon Kobyluck",
+            "display_name": "Jonathon Kobyluck",
+            "team": "T01ATQK62F8",
+            "name": "comet.cetera",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705770206.592289",
+        "parent_user_id": "U03S8TF9USK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1mVnx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "AWS doesn’t do “projects”, but it does do organizations. I created one under my root account specifically for DE Zoomcamp, so it’s completely independent\/clear of any other data from my normal account."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U05168A1W3V"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "text": "anyone getting this error while creating redshift serverless ?",
+        "files": [
+            {
+                "id": "F06N6MBU2LX",
+                "mode": "hidden_by_limit"
+            }
+        ],
+        "upload": false,
+        "user": "U05G0GP9AUQ",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gcNMm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "anyone getting this error while creating redshift serverless ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1709908998.503669",
+        "client_msg_id": "12d5fe55-8a96-4b2e-9260-838cd141c558"
+    }
+]

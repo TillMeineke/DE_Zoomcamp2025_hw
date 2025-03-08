@@ -1,0 +1,60 @@
+[
+    {
+        "user": "U066HSCK553",
+        "type": "message",
+        "ts": "1714886949.414539",
+        "client_msg_id": "3001be88-dfad-46e0-a45a-ac26f52b406c",
+        "text": "Is ec2  t2.micro is enough to run docker, airflow and other tools use in this course?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "92a59d08a0b7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-11-20\/6221896757669_92a59d08a0b71eade6f9_72.jpg",
+            "first_name": "Ronnel",
+            "real_name": "Ronnel Supnet",
+            "display_name": "Ronnel Supnet",
+            "team": "T01ATQK62F8",
+            "name": "supnetronnel",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1714886949.414539",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1715146771.475079",
+        "reply_users": [
+            "U02TNEJLC84",
+            "U066HSCK553"
+        ],
+        "replies": [
+            {
+                "user": "U02TNEJLC84",
+                "ts": "1715029641.782209"
+            },
+            {
+                "user": "U066HSCK553",
+                "ts": "1715146771.475079"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c8Pdn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is ec2  t2.micro is enough to run docker, airflow and other tools use in this course?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

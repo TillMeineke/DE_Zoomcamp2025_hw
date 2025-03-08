@@ -1,0 +1,54 @@
+[
+    {
+        "user": "U03S0TRKPQ9",
+        "type": "message",
+        "ts": "1688548817.025479",
+        "client_msg_id": "f0254e01-c4a2-447b-99ba-920a59868337",
+        "text": "Hi everyone,:wave::smile:\nI have a questions about the feature store process. I'm currently utilizing the tsfresh library for feature extraction and I'm interested in incorporating it into my deployment pipeline on AWS. I'm wondering if anyone has had experience with tsfresh and could recommend the most suitable AWS resources to use, such as Lambda functions or Glue ( both seem to have limitations and may not be the ideal fit).\nAdditionally, could you suggest any libraries that are effective for time series data feature extraction, particularly ones that are frequently used in production environments with AWS?\nThank you.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g7798c50a630",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7798c50a63058f0f4efb1be24b03215e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "Ali",
+            "real_name": "Ali Alouane",
+            "display_name": "Ali Alouane",
+            "team": "T01ATQK62F8",
+            "name": "mr.ali.alouane",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g\/A18",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi everyone,"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wave",
+                                "unicode": "1f44b"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smile",
+                                "unicode": "1f604"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nI have a questions about the feature store process. I'm currently utilizing the tsfresh library for feature extraction and I'm interested in incorporating it into my deployment pipeline on AWS. I'm wondering if anyone has had experience with tsfresh and could recommend the most suitable AWS resources to use, such as Lambda functions or Glue ( both seem to have limitations and may not be the ideal fit).\nAdditionally, could you suggest any libraries that are effective for time series data feature extraction, particularly ones that are frequently used in production environments with AWS?\nThank you."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

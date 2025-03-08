@@ -1,0 +1,42 @@
+[
+    {
+        "user": "U030YJBRE20",
+        "type": "message",
+        "ts": "1676495368.839949",
+        "client_msg_id": "8e9bfc3c-6761-4ce5-b1b6-f1e16bc14605",
+        "text": "Cool idea!\nBut is this not a one time project? I mean the data you get it once and it is not going to change right?\nSo no batch and no stream data",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gde9058c7a1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/de9058c7a1f24da9002862ffff80e5f4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "JaimeRV",
+            "real_name": "JaimeRV",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "jaime.raldua.veuthey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676280166.810859",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c8zw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cool idea!\nBut is this not a one time project? I mean the data you get it once and it is not going to change right?\nSo no batch and no stream data"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

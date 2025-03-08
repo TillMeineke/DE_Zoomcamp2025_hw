@@ -1,0 +1,93 @@
+[
+    {
+        "user": "U04DDG2JZ40",
+        "type": "message",
+        "ts": "1674127748.129639",
+        "client_msg_id": "06ec963c-bfca-4771-ad4a-30e7e8d2ae48",
+        "text": "If you need help with AWS and I can help, reach out to me. Good luck in you data engineering journey!",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "b49d3854e1da",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-11-28\/4434326726852_b49d3854e1daa6d62be6_72.jpg",
+            "first_name": "Pedro",
+            "real_name": "Pedro Marques",
+            "display_name": "Pedro Marques",
+            "team": "T01ATQK62F8",
+            "name": "pedromar2010",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674087666.869199",
+        "parent_user_id": "U04AZ7RTYRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8IjnA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If you need help with AWS and I can help, reach out to me. Good luck in you data engineering journey!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "thank_you",
+                "users": [
+                    "U04K74D6PM2",
+                    "U04AZ7RTYRM",
+                    "U03T4RAMAQ4"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U04AZ7RTYRM",
+        "type": "message",
+        "ts": "1674179154.877319",
+        "client_msg_id": "56313bce-9de6-4555-94ef-19d397e89e02",
+        "text": "Thank you so much ! You are awesome : )",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gf1be007ed35",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f1be007ed35dc88f3b7614270a939d97.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Lee",
+            "real_name": "Lee",
+            "display_name": "Lee",
+            "team": "T01ATQK62F8",
+            "name": "leeheeyeon81",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674087666.869199",
+        "parent_user_id": "U04AZ7RTYRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "86MKL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thank you so much ! You are awesome : )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

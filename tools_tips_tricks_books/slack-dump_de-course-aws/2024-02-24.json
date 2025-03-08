@@ -1,0 +1,49 @@
+[
+    {
+        "user": "U05G0GP9AUQ",
+        "type": "message",
+        "ts": "1708835125.656669",
+        "client_msg_id": "ad4ace8c-4474-4fa9-8993-799c3e7364a8",
+        "text": "is anyone using airflow instead of mage",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gdb57b8b087c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/db57b8b087c45505bc274e7cb13dd43e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "sharathchandran",
+            "real_name": "sharathchandran komuravelli",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "sharathchandrankomura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "alx13",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is anyone using airflow instead of mage"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U05KR9LJWL9"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

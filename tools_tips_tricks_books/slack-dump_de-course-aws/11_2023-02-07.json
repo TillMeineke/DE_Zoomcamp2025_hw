@@ -1,0 +1,182 @@
+[
+    {
+        "user": "U04NG5FJYTD",
+        "type": "message",
+        "ts": "1675801054.708889",
+        "client_msg_id": "A7FB28F8-2F57-4810-A577-296B16B00141",
+        "text": "Hi, reposting this here.\n\nHas anyone tried writing parquet files to S3? The writes are really slow. I am using the \"magic\" committer and apparently, that's the fastest among all - <https:\/\/spot.io\/blog\/improve-apache-spark-performance-with-the-s3-magic-committer\/|https:\/\/spot.io\/blog\/improve-apache-spark-performance-with-the-s3-magic-committer\/>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "b6c199d138cd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-04-01\/5040207260742_b6c199d138cdb794a85d_72.png",
+            "first_name": "Baldeep",
+            "real_name": "Baldeep Singh",
+            "display_name": "Baldeep Singh",
+            "team": "T01ATQK62F8",
+            "name": "handabaldeep",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675801054.708889",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1675996000.992519",
+        "reply_users": [
+            "U04K5Q7V326"
+        ],
+        "replies": [
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675811871.114079"
+            },
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675996000.992519"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "attachments": [
+            {
+                "from_url": "https:\/\/spot.io\/blog\/improve-apache-spark-performance-with-the-s3-magic-committer\/",
+                "ts": 1642671862,
+                "service_icon": "https:\/\/cdn.shortpixel.ai\/spai\/q_lossy+ret_img+to_auto\/https:\/\/blog-assets.spot.io\/app\/uploads\/2020\/03\/25174027\/cropped-favicon-180x180.png",
+                "id": 1,
+                "original_url": "https:\/\/spot.io\/blog\/improve-apache-spark-performance-with-the-s3-magic-committer\/",
+                "fallback": "The Spot by NetApp Blog: Improve Apache Spark performance with the S3 magic committer - The Spot by NetApp Blog",
+                "text": "Speed up Apache Spark jobs with the S3 magic committer. Learn what the S3 committer is, its benefits and how to turn it on in Spot's latest blog.",
+                "title": "Improve Apache Spark performance with the S3 magic committer - The Spot by NetApp Blog",
+                "title_link": "https:\/\/spot.io\/blog\/improve-apache-spark-performance-with-the-s3-magic-committer\/",
+                "service_name": "The Spot by NetApp Blog"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mPj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, "
+                            },
+                            {
+                                "type": "text",
+                                "text": "reposting this here.\n\nH"
+                            },
+                            {
+                                "type": "text",
+                                "text": "as anyone tried writing parquet files to S3? The writes are really slow. I am using the \"magic\" committer and apparently, that's the fastest among all - "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/spot.io\/blog\/improve-apache-spark-performance-with-the-s3-magic-committer\/",
+                                "text": "https:\/\/spot.io\/blog\/improve-apache-spark-performance-with-the-s3-magic-committer\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675804859.546939",
+        "client_msg_id": "5f1e1f99-9f5f-41ef-b85e-b72145336863",
+        "text": "i have written gz, and csv do you have your code you used?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ejy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i have written gz, and csv do you have your code you used?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675811871.114079",
+        "client_msg_id": "8B444E68-D0A8-46E3-AAFB-9DD8BC3238A9",
+        "text": "See if this helps <https:\/\/thecodinginterface.com\/blog\/serverless-python-gzip-to-parquet-conversion\/|https:\/\/thecodinginterface.com\/blog\/serverless-python-gzip-to-parquet-conversion\/>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675801054.708889",
+        "parent_user_id": "U04NG5FJYTD",
+        "attachments": [
+            {
+                "from_url": "https:\/\/thecodinginterface.com\/blog\/serverless-python-gzip-to-parquet-conversion\/",
+                "service_icon": "https:\/\/thecodinginterface.com\/static\/images\/tci-logo.png",
+                "id": 1,
+                "original_url": "https:\/\/thecodinginterface.com\/blog\/serverless-python-gzip-to-parquet-conversion\/",
+                "fallback": "Serverless Conversions From GZip to Parquet Format with Python AWS Lambda and S3 Uploads | The Coding Interface",
+                "text": "In this article I demonstrate using a Python based AWS Lambda SAM project with the AWS Data Wrangler Lambda Layer to perform data format translation from GZipped JSON files into Parquet upon an S3 upload event.",
+                "title": "Serverless Conversions From GZip to Parquet Format with Python AWS Lambda and S3 Uploads | The Coding Interface",
+                "title_link": "https:\/\/thecodinginterface.com\/blog\/serverless-python-gzip-to-parquet-conversion\/",
+                "service_name": "thecodinginterface.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "h1tm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "See if this helps "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/thecodinginterface.com\/blog\/serverless-python-gzip-to-parquet-conversion\/",
+                                "text": "https:\/\/thecodinginterface.com\/blog\/serverless-python-gzip-to-parquet-conversion\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

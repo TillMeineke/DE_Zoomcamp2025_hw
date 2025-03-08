@@ -1,0 +1,1268 @@
+[
+    {
+        "user": "U04FDP114DV",
+        "type": "message",
+        "ts": "1675609096.197459",
+        "client_msg_id": "67357923-2b87-43e4-8ebe-8ae0dd71dc0c",
+        "text": "I looked at <@U04K5Q7V326> and <@U04HQTU756J> config . <https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/blob\/main\/Week_1\/Solution\/main.tf>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g1cd67ea58aa",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1cd67ea58aa20ec68c7e348a6b975db1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "sunny",
+            "real_name": "sunny rahul",
+            "display_name": "sunny rahul",
+            "team": "T01ATQK62F8",
+            "name": "sunny.rahul",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675239983.676029",
+        "parent_user_id": "U030YJBRE20",
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/blob\/main\/Week_1\/Solution\/main.tf",
+                "image_url": "https:\/\/opengraph.githubassets.com\/6661df8bda41709ffcef367ce6b77dffe36e58e357caf82f81d14a781ac9f1c1\/Zesky665\/data-engineering-zoomcamp-2023",
+                "image_width": 500,
+                "image_height": 250,
+                "image_bytes": 46926,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/blob\/main\/Week_1\/Solution\/main.tf",
+                "fallback": "GitHub: data-engineering-zoomcamp-2023\/main.tf at main · Zesky665\/data-engineering-zoomcamp-2023",
+                "text": "My attempt at the 2023 DE zoomcamp. Contribute to Zesky665\/data-engineering-zoomcamp-2023 development by creating an account on GitHub.",
+                "title": "data-engineering-zoomcamp-2023\/main.tf at main · Zesky665\/data-engineering-zoomcamp-2023",
+                "title_link": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/blob\/main\/Week_1\/Solution\/main.tf",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fu3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I looked at "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U04K5Q7V326"
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U04HQTU756J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " config . "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/blob\/main\/Week_1\/Solution\/main.tf"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675609825.421699",
+        "client_msg_id": "03cc538c-f8c1-4926-9ce3-0e1fad615009",
+        "text": "It going to be posting an updated deployment with terraform soon.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675239983.676029",
+        "parent_user_id": "U030YJBRE20",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AXZ=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It going to be posting an updated deployment with terraform soon."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04FDP114DV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675621484.656009",
+        "client_msg_id": "d1f1ebc0-48be-4fd9-b6f9-18d576c5732e",
+        "text": "Hi guys,\n\nAfter much sweat and tears here is my setup for week 2\n<https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/tree\/main\/Week_2\/solution>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "reply_count": 16,
+        "reply_users_count": 4,
+        "latest_reply": "1675627672.202809",
+        "reply_users": [
+            "U04HQTU756J",
+            "U04F8J811DK",
+            "U04FDP114DV",
+            "U04K5Q7V326"
+        ],
+        "replies": [
+            {
+                "user": "U04HQTU756J",
+                "ts": "1675621525.959869"
+            },
+            {
+                "user": "U04F8J811DK",
+                "ts": "1675621560.017519"
+            },
+            {
+                "user": "U04F8J811DK",
+                "ts": "1675621575.791589"
+            },
+            {
+                "user": "U04HQTU756J",
+                "ts": "1675621611.915419"
+            },
+            {
+                "user": "U04HQTU756J",
+                "ts": "1675621730.230159"
+            },
+            {
+                "user": "U04FDP114DV",
+                "ts": "1675621809.893769"
+            },
+            {
+                "user": "U04F8J811DK",
+                "ts": "1675621825.769709"
+            },
+            {
+                "user": "U04FDP114DV",
+                "ts": "1675621872.306939"
+            },
+            {
+                "user": "U04HQTU756J",
+                "ts": "1675623620.313919"
+            },
+            {
+                "user": "U04FDP114DV",
+                "ts": "1675624369.375589"
+            },
+            {
+                "user": "U04HQTU756J",
+                "ts": "1675624805.455869"
+            },
+            {
+                "user": "U04FDP114DV",
+                "ts": "1675625110.506039"
+            },
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675625505.440919"
+            },
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675625739.691999"
+            },
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675625933.743059"
+            },
+            {
+                "user": "U04HQTU756J",
+                "ts": "1675627672.202809"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/tree\/main\/Week_2\/solution",
+                "image_url": "https:\/\/opengraph.githubassets.com\/6661df8bda41709ffcef367ce6b77dffe36e58e357caf82f81d14a781ac9f1c1\/Zesky665\/data-engineering-zoomcamp-2023",
+                "image_width": 500,
+                "image_height": 250,
+                "image_bytes": 46926,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/tree\/main\/Week_2\/solution",
+                "fallback": "GitHub: data-engineering-zoomcamp-2023\/Week_2\/solution at main · Zesky665\/data-engineering-zoomcamp-2023",
+                "text": "My attempt at the 2023 DE zoomcamp. Contribute to Zesky665\/data-engineering-zoomcamp-2023 development by creating an account on GitHub.",
+                "title": "data-engineering-zoomcamp-2023\/Week_2\/solution at main · Zesky665\/data-engineering-zoomcamp-2023",
+                "title_link": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/tree\/main\/Week_2\/solution",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0Vvrb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi guys,\n\nAfter much sweat and tears here is my setup for week 2\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/Zesky665\/data-engineering-zoomcamp-2023\/tree\/main\/Week_2\/solution"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04AZ7RTYRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675621525.959869",
+        "edited": {
+            "user": "U04HQTU756J",
+            "ts": "1675621558.000000"
+        },
+        "client_msg_id": "14232893-0eba-46c4-abe7-1e65a7a77542",
+        "text": "I decided to go the serverless route. This runs on ECS, with one agent running on a ECS Fargate instance, and the flows each getting their own temporaty ECS instance courtesy of FARGATE_SPOT and the ECS Task prefect block.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xs2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I decided to go the serverless route. This runs on ECS, with one agent running on a ECS Fargate instance, and the flows each getting their own temporaty ECS instance courtesy of FARGATE_SPOT and the ECS Task prefect block."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04F8J811DK",
+        "type": "message",
+        "ts": "1675621560.017519",
+        "client_msg_id": "879d78d0-bdac-4a3a-804f-30a279a313d1",
+        "text": "thanks",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "63aacdd60968",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-12-14\/4524025621732_63aacdd609680ed7bc4f_72.jpg",
+            "first_name": "Ayodeji",
+            "real_name": "Ayodeji Ibimilua",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "ayodejiibimilua4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A3N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04F8J811DK",
+        "type": "message",
+        "ts": "1675621575.791589",
+        "client_msg_id": "9056a3f3-dbc5-4636-bec1-7624268075ca",
+        "text": "much appreciated",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "63aacdd60968",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-12-14\/4524025621732_63aacdd609680ed7bc4f_72.jpg",
+            "first_name": "Ayodeji",
+            "real_name": "Ayodeji Ibimilua",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "ayodejiibimilua4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "W3Hi=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "much appreciated"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04HQTU756J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675621611.915419",
+        "client_msg_id": "dd1b60fe-c8e0-4093-a79b-05bc3f4fbfc1",
+        "text": "I am aware that there are multiple \"tutorials\" on how to achieve this, however most seem to be outdated.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H+t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I am aware that there are multiple \"tutorials\" on how to achieve this, however most seem to be outdated."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675621730.230159",
+        "client_msg_id": "3261811a-b08d-4bd9-bd51-bba8fe89de37",
+        "text": "There is more work to be done on this setup. The task deployment for instance is manual rn. I will look into creating a GitHub Actions flow to take care of that.\nThe block for ECS Tasks, I'm not super sure how to set it up automatically, currently, you need to do it manually.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NAE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There is more work to be done on this setup. The task deployment for instance is manual rn. I will look into creating a GitHub Actions flow to take care of that.\nThe block for ECS Tasks, I'm not super sure how to set it up automatically, currently, you need to do it manually."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04FDP114DV",
+        "type": "message",
+        "ts": "1675621809.893769",
+        "client_msg_id": "87bec68a-752f-4abf-b5bb-f8c09cb8833a",
+        "text": "thank you for sharing.  An archicture diagram would really help ful to understand the architecture.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g1cd67ea58aa",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1cd67ea58aa20ec68c7e348a6b975db1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "sunny",
+            "real_name": "sunny rahul",
+            "display_name": "sunny rahul",
+            "team": "T01ATQK62F8",
+            "name": "sunny.rahul",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "15811",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thank you for sharing.  An archicture diagram would really help ful to understand the architecture."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04F8J811DK",
+        "type": "message",
+        "ts": "1675621825.769709",
+        "client_msg_id": "c7a34b11-50d3-474d-8f1d-f2cc42aea040",
+        "text": "Alright. Thanks.\n\nI am having difficulties connecting to my redshift db using python",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "63aacdd60968",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-12-14\/4524025621732_63aacdd609680ed7bc4f_72.jpg",
+            "first_name": "Ayodeji",
+            "real_name": "Ayodeji Ibimilua",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "ayodejiibimilua4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vrVhe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Alright. Thanks.\n\nI am having difficulties connecting to my redshift db using python"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04FDP114DV",
+        "type": "message",
+        "ts": "1675621872.306939",
+        "edited": {
+            "user": "U04FDP114DV",
+            "ts": "1675621901.000000"
+        },
+        "client_msg_id": "1f509289-1ccd-43ab-b226-6e2840856c0e",
+        "text": "could you give some pros\/cons using serverless? why did you made the swtich",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g1cd67ea58aa",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1cd67ea58aa20ec68c7e348a6b975db1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "sunny",
+            "real_name": "sunny rahul",
+            "display_name": "sunny rahul",
+            "team": "T01ATQK62F8",
+            "name": "sunny.rahul",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kPVs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "could you give some pros\/cons using serverless? why did you made the swtich"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675623620.313919",
+        "client_msg_id": "52e507ad-c660-489a-af73-d209d36283b4",
+        "text": "<@U04FDP114DV> I did it because this way is more scalable. You only need a very small instance to run the agents and you can create bigger more powerful instances to handle more resource-intensive tasks like transformations.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aLfu\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04FDP114DV"
+                            },
+                            {
+                                "type": "text",
+                                "text": " I did it because this way is more scalable. You only need a very small instance to run the agents and you can create bigger more powerful instances to handle more resource-intensive tasks like transformations."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04FDP114DV",
+        "type": "message",
+        "ts": "1675624369.375589",
+        "client_msg_id": "f835e91e-e7f7-4a67-9765-e6750e41b5b8",
+        "text": "<@U04HQTU756J> thanks for the explanation. Is it correct to say you moved the compute\/processing to serverless however storage (lake and warehouse) remain on (s3 and redshift).\n\nAn Alternative would be to be process data on ecs2 instance (prefect agent running) \/ or locally .",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g1cd67ea58aa",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1cd67ea58aa20ec68c7e348a6b975db1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "sunny",
+            "real_name": "sunny rahul",
+            "display_name": "sunny rahul",
+            "team": "T01ATQK62F8",
+            "name": "sunny.rahul",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iOK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04HQTU756J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " thanks for the explanation. Is it correct to say you moved the compute\/processing to serverless however storage (lake and warehouse) remain on (s3 and redshift).\n\nAn Alternative would be to be process data on ecs2 instance (prefect agent running) \/ or locally ."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675624805.455869",
+        "client_msg_id": "778d442e-de60-4439-8736-b1ac03b98010",
+        "text": "<@U04FDP114DV> Storage is still on s3 and redshift.\nMy week 1 was with ec2, it's pretty ok. But it's kind of wasteful because you are going to be paying for a lot of resources that aren't going to be used.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SCdn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04FDP114DV"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Storage is still on s3 and redshift.\nMy week 1 was with ec2, it's pretty ok. But it's kind of wasteful because you are going to be paying for a lot of resources that aren't going to be used."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04FDP114DV",
+        "type": "message",
+        "ts": "1675625110.506039",
+        "client_msg_id": "aecf4e86-f7a8-4943-a647-2f19d93854c5",
+        "text": "<@U04HQTU756J> understood. I believe those who have free tier can do the project  without incurring cost.\n\nAlso the network architecture remains the same as from the medium article you shared.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g1cd67ea58aa",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1cd67ea58aa20ec68c7e348a6b975db1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "sunny",
+            "real_name": "sunny rahul",
+            "display_name": "sunny rahul",
+            "team": "T01ATQK62F8",
+            "name": "sunny.rahul",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zJ0A2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04HQTU756J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " understood. I believe those who have free tier can do the project  without incurring cost.\n\nAlso the network architecture remains the same as from the medium article you shared."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675625505.440919",
+        "client_msg_id": "080847fb-3e66-421d-a5a7-d295324fbd66",
+        "text": "<@U04HQTU756J> Why did you choose ECS over AWS Batch or say Lambda?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f91",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04HQTU756J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Why did you choose ECS over AWS Batch or say Lambda?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675625739.691999",
+        "client_msg_id": "55c63fb2-d3cf-4de0-a7e8-1746a1f7d72f",
+        "text": "<@U04HQTU756J> I just saw your homework. great work with <http:\/\/that.As|that.As> I understand you are running prefect over ECS, so it makes sense to run over ECS over batch or lambda.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "40x0\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04HQTU756J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " I just saw your homework. great work with that.As I understand you are running prefect over ECS, so it makes sense to run over ECS over batch or lambda."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675625933.743059",
+        "client_msg_id": "d7f77808-7e5b-4c54-ab62-97eba1b0fb83",
+        "text": "I have installed Airflow over EC2(I am going to learn from your setup and possibly setup airflow on ECS in the upcoming weeks). I am using airflow just as an orchestrator, and have a Lambda for each of the following task(Extract to S3 as zipped file using a Docker, Unzip and save the extracted output, and Copy the extracted output to Redshift).",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bDG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I have installed Airflow over EC2(I am going to learn from your setup and possibly setup airflow on ECS in the upcoming weeks). I am using airflow just as an orchestrator, and have a Lambda for each of the following task(Extract to S3 as zipped file using a Docker, Unzip and save the extracted output, and Copy the extracted output to Redshift)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1675627672.202809",
+        "client_msg_id": "11d4da67-3704-4d8c-89ec-062f2c983b63",
+        "text": "<@U04FDP114DV> if it ain't broke don't fix it :wink:\n\n<@U04K5Q7V326> I'd love to see how you've handled it with Lambda. I mostly went for ECS because you can run the tasks in spot instances which are ~70% cheaper than regular computing. I don't know how that would compare to running the same task in Lambda.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675621484.656009",
+        "parent_user_id": "U04HQTU756J",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pVur3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04FDP114DV"
+                            },
+                            {
+                                "type": "text",
+                                "text": " if it ain't broke don't fix it "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink",
+                                "unicode": "1f609"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U04K5Q7V326"
+                            },
+                            {
+                                "type": "text",
+                                "text": " I'd love to see how you've handled it with Lambda. I mostly went for ECS because you can run the tasks in spot instances which are ~70% cheaper than regular computing. I don't know how that would compare to running the same task in Lambda."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U04FDP114DV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U04KAKTJDS5",
+        "type": "message",
+        "ts": "1675638968.338249",
+        "client_msg_id": "1881bf98-eba1-495f-9303-4ca30c23f54a",
+        "text": "Hey, for the `gcs_to_gbq.py` which is equivalent to `aws_to_redshift.py` in my case, I'm unable to copy folders in my cloud bucket first to local storage. The flow function executes and terminates successfully but without copying the S3 folders to the specified local path. I would like to know if there are permissions I should declare on the s3 bucket so that its content can be copied! I am using the same perfect s3 block I used to load data to the S3 bucket.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "cceae3807eae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-03-02\/4901090484545_cceae3807eae08dccbc4_72.png",
+            "first_name": "Mwanthi",
+            "real_name": "Mwanthi Daniel",
+            "display_name": "Mwanthi Daniel",
+            "team": "T01ATQK62F8",
+            "name": "dmwanthi2",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675638968.338249",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1675685452.043009",
+        "reply_users": [
+            "U04K5Q7V326",
+            "U04KAKTJDS5"
+        ],
+        "replies": [
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675641384.407229"
+            },
+            {
+                "user": "U04KAKTJDS5",
+                "ts": "1675678113.469439"
+            },
+            {
+                "user": "U04KAKTJDS5",
+                "ts": "1675685452.043009"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0W\/K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey, for the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "gcs_to_gbq.py",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " which is equivalent to "
+                            },
+                            {
+                                "type": "text",
+                                "text": "aws_to_redshift.py",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " in my case, I'm unable to copy folders in my cloud bucket first to local storage. The flow function executes and terminates successfully but without copying the S3 folders to the specified local path. I would like to know if there are permissions I should declare on the s3 bucket so that its content can be copied! I am using the same perfect s3 block I used to load data to the S3 bucket."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675641384.407229",
+        "client_msg_id": "A209D9E3-AFEA-4DCE-BD3B-C623463A7F52",
+        "text": "Where is your code running ? On an EC2 or local ",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675638968.338249",
+        "parent_user_id": "U04KAKTJDS5",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xOT5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Where is your code running ? On an EC2 or local "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675658621.947549",
+        "client_msg_id": "25ae7dba-601f-4376-9d4a-a76e454d6520",
+        "text": "Here is my work on the week2",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ngD6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here is my work on the week2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U030YJBRE20",
+                    "U04HQTU756J",
+                    "U04AZ7RTYRM"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675658624.388599",
+        "client_msg_id": "2df8a0b7-e016-4b86-b424-f94734fbebd0",
+        "text": "<https:\/\/github.com\/waliadee\/zoomcampweek2HW>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675658624.388599",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1675659361.017839",
+        "reply_users": [
+            "U04K5Q7V326"
+        ],
+        "replies": [
+            {
+                "user": "U04K5Q7V326",
+                "ts": "1675659361.017839"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/waliadee\/zoomcampweek2HW",
+                "image_url": "https:\/\/opengraph.githubassets.com\/657ba6ba6e7e7c63987f5133657ed0e79e55ea74657dc5ef18ce2c0ab31dceaa\/waliadee\/zoomcampweek2HW",
+                "image_width": 500,
+                "image_height": 250,
+                "image_bytes": 98915,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/waliadee\/zoomcampweek2HW",
+                "fallback": "GitHub: GitHub - waliadee\/zoomcampweek2HW",
+                "text": "Contribute to waliadee\/zoomcampweek2HW development by creating an account on GitHub.",
+                "title": "GitHub - waliadee\/zoomcampweek2HW",
+                "title_link": "https:\/\/github.com\/waliadee\/zoomcampweek2HW",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vOi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/waliadee\/zoomcampweek2HW"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675659361.017839",
+        "client_msg_id": "d589807d-a97a-484c-9073-0553718d7d1d",
+        "text": "My setup:\n1. airflow instead of Prefect. My airflow is running on a Docker inside an EC2. I will in future weeks explore a better solution possibly ECS.\n2. airflow script calls 3 Lambda functions:\n\tDownload(get file from github and save in raw\/ folder)\n\tUnzip(unzip the file and save in unzip\/ folder)\n\tLoadToRedshift(Load the unzipped file into redshift using COPY statement, and print load counts.\n3. I only have 1 set of scripts for both green and yellow trip data files. I pass on the parameters from AWS secrets manager.\n\nTodo:\n1. Only pass database credentials from secret manager and rest configurations can come from parameter store\n2. Setup airflow on ecs maybe(My airflow gets really slow on EC2),maybe try a bigger ec2, might even try prefect.\n3. Include Email\/slack functionality(not yet done).\n4. I was facing access issue running COPY from redshift. So, I had to go into UI and grant elevated privilesgs. Will debug and adjust my TF file.\n5. Explore AWS Code Commit, Code Build, deploy to see how I can build Lambdas from GIT directly.\n6a. Setup the same lambdas using Docker.\n6b. Setup the Dockers using AWS Batch.\n6c. test out deployment using GIT",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675658624.388599",
+        "parent_user_id": "U04K5Q7V326",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CCiP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "My setup:\n1. airflow instead of Prefect. My airflow is running on a Docker inside an EC2. I will in future weeks explore a better solution possibly ECS.\n2. airflow script calls 3 Lambda functions:\n\tDownload(get file from github and save in raw\/ folder)\n\tUnzip(unzip the file and save in unzip\/ folder)\n\tLoadToRedshift(Load the unzipped file into redshift using COPY statement, and print load counts.\n3. I only have 1 set of scripts for both green and yellow trip data files. I pass on the parameters from AWS secrets manager.\n\nTodo:\n1. Only pass database credentials from secret manager and rest configurations can come from parameter store\n2. Setup airflow on ecs maybe(My airflow gets really slow on EC2),maybe try a bigger ec2, might even try prefect.\n3. Include Email\/slack functionality(not yet done).\n4. I was facing access issue running COPY from redshift. So, I had to go into UI and grant elevated privilesgs. Will debug and adjust my TF file.\n5. Explore AWS Code Commit, Code Build, deploy to see how I can build Lambdas from GIT directly.\n6a. Setup the same lambdas using Docker.\n6b. Setup the Dockers using AWS Batch.\n6c. test out deployment using GIT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,211 @@
+[
+    {
+        "user": "U089UPN1N80",
+        "type": "message",
+        "ts": "1738254460.052479",
+        "client_msg_id": "e2251fbb-f178-4884-82bf-9cf35be8c918",
+        "text": "Did you complete the bootcamp before taking this course or was it after?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "8e0543b9c90c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-01-17\/8305372122518_8e0543b9c90c415f04f9_72.png",
+            "first_name": "Salaudeen",
+            "real_name": "Salaudeen Iliasu",
+            "display_name": "Salaudeen Iliasu",
+            "team": "T01ATQK62F8",
+            "name": "salaudeena97",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730616535.986359",
+        "parent_user_id": "U03B809RZT6",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2BKS8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Did you complete the bootcamp before taking this course or was it after?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LYVAQH8W",
+        "type": "message",
+        "ts": "1738255593.998029",
+        "client_msg_id": "10567c29-287c-47fb-a6a7-d6d479173cb4",
+        "text": "Not at all, I startedthe Bootcamp last year in October, because I couldn't create a Google cloud account, I chose AWS. Unfortunately I was quite lost, I had issues translating GCP to  AWS, that's the reason I decided to follow the Coursera course first.\nI'm currently enrolled in the 2025 cohort of the Zoomcamp.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "77ed5783bd1b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-10-29\/7949095739475_77ed5783bd1b16b1abcf_72.jpg",
+            "first_name": "François",
+            "real_name": "François Adam",
+            "display_name": "François",
+            "team": "T01ATQK62F8",
+            "name": "francoisadam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730616535.986359",
+        "parent_user_id": "U03B809RZT6",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sfHVS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Not at all, I startedthe Bootcamp last year in October, because I couldn't create a Google cloud account, I chose AWS. Unfortunately I was quite lost, I had issues translating GCP to  AWS, that's the reason I decided to follow the Coursera course first.\nI'm currently enrolled in the 2025 cohort of the Zoomcamp."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U089UPN1N80",
+        "type": "message",
+        "ts": "1738255777.766199",
+        "client_msg_id": "0893b7b2-9a75-407a-ae15-42a256482245",
+        "text": "I see, you completed the Coursera AWS course first and now following the bootcamp, great! Thanks for the info",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "8e0543b9c90c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-01-17\/8305372122518_8e0543b9c90c415f04f9_72.png",
+            "first_name": "Salaudeen",
+            "real_name": "Salaudeen Iliasu",
+            "display_name": "Salaudeen Iliasu",
+            "team": "T01ATQK62F8",
+            "name": "salaudeena97",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730616535.986359",
+        "parent_user_id": "U03B809RZT6",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M2VXu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I see, you completed the Coursera AWS course first and now following the bootcamp, great! Thanks for the info"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U089UPN1N80",
+        "type": "message",
+        "ts": "1738255940.647269",
+        "client_msg_id": "3ba660da-35a0-4e5e-aabe-9335add66969",
+        "text": "I'm currently using GCP but later I would like to use AWS. Is the Course course beneficial right now?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "8e0543b9c90c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-01-17\/8305372122518_8e0543b9c90c415f04f9_72.png",
+            "first_name": "Salaudeen",
+            "real_name": "Salaudeen Iliasu",
+            "display_name": "Salaudeen Iliasu",
+            "team": "T01ATQK62F8",
+            "name": "salaudeena97",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730616535.986359",
+        "parent_user_id": "U03B809RZT6",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HQQLs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm currently using GCP but later I would like to use AWS. Is the Course course beneficial right now?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LYVAQH8W",
+        "type": "message",
+        "ts": "1738257999.799049",
+        "client_msg_id": "0abd493c-1a7d-4e15-acb4-1e437d434e20",
+        "text": "Yes the course is a must for AWS engineering",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "77ed5783bd1b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-10-29\/7949095739475_77ed5783bd1b16b1abcf_72.jpg",
+            "first_name": "François",
+            "real_name": "François Adam",
+            "display_name": "François",
+            "team": "T01ATQK62F8",
+            "name": "francoisadam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730616535.986359",
+        "parent_user_id": "U03B809RZT6",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tFQ\/x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes the course is a must for AWS engineering"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U089UPN1N80"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

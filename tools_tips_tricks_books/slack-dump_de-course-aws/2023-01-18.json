@@ -1,0 +1,297 @@
+[
+    {
+        "user": "U02RVDXL5BR",
+        "type": "message",
+        "ts": "1674029666.789669",
+        "client_msg_id": "4084C709-90F3-4AE0-B2F0-10CADF311929",
+        "text": "I am unable to set up my card on GCP too",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g4b15b5ae90c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4b15b5ae90c268d6053faba519c1bedd.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Lasisi",
+            "real_name": "Lasisi salmah",
+            "display_name": "Lasisi salmah",
+            "team": "T01ATQK62F8",
+            "name": "lasisisalmah52",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XPe2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I am unable to set up my card on GCP too"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K44W8T5Y",
+        "type": "message",
+        "ts": "1674043206.494989",
+        "client_msg_id": "23464faf-8917-4634-8e87-7cc930c2b238",
+        "text": "hi guys,",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gbd41bd61c9a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bd41bd61c9aa1b6fcf3bb42a9a41ff4c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "Platinex",
+            "real_name": "Platinex Designs",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "wasiuodebunmi19",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r1NXh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi guys,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04DDG2JZ40",
+        "type": "message",
+        "ts": "1674083085.173489",
+        "client_msg_id": "dc1c65f6-6fab-432c-8750-9bbddf60c8ae",
+        "text": "As Alexey says:\nYou don't have to limit yourself to technologies covered in the course. You can use alternatives as well:\n• Cloud: AWS, GCP, Azure or others\n• Infrastructure as code (IaC): Terraform, Pulumi, Cloud Formation, ...\n• Workflow orchestration: Airflow, Prefect, Luigi, ...\n• Data Wareshouse: BigQuery, Snowflake, Redshift, ...\n• Batch processing: Spark, Flink, AWS Batch, ...\n• Stream processing: Kafka, Pulsar, Kinesis, ...\nsource: <https:\/\/github.com\/EmotionFever\/data-engineering-zoomcamp\/tree\/main\/week_7_project>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "b49d3854e1da",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-11-28\/4434326726852_b49d3854e1daa6d62be6_72.jpg",
+            "first_name": "Pedro",
+            "real_name": "Pedro Marques",
+            "display_name": "Pedro Marques",
+            "team": "T01ATQK62F8",
+            "name": "pedromar2010",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m1w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "As Alexey says:\nYou don't have to limit yourself to technologies covered in the course. You can use alternatives as well:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Cloud: AWS, GCP, Azure or others"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Infrastructure as code (IaC): Terraform, Pulumi, Cloud Formation, ..."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Workflow orchestration: Airflow, Prefect, Luigi, ..."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Data Wareshouse: BigQuery, Snowflake, Redshift, ..."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Batch processing: Spark, Flink, AWS Batch, ..."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Stream processing: Kafka, Pulsar, Kinesis, ..."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "source: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/EmotionFever\/data-engineering-zoomcamp\/tree\/main\/week_7_project"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04FL03N7TR",
+                    "U04K74D6PM2"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U04DDG2JZ40",
+        "type": "message",
+        "ts": "1674083132.341409",
+        "client_msg_id": "3c555a22-0c1b-41e1-be16-40d54cf76d5d",
+        "text": "As long as we use this technologies we should be safe. Have fun!",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "b49d3854e1da",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-11-28\/4434326726852_b49d3854e1daa6d62be6_72.jpg",
+            "first_name": "Pedro",
+            "real_name": "Pedro Marques",
+            "display_name": "Pedro Marques",
+            "team": "T01ATQK62F8",
+            "name": "pedromar2010",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8wS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "As long as we use this technologies we should be safe. Have fun!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04AZ7RTYRM",
+        "type": "message",
+        "ts": "1674087666.869199",
+        "client_msg_id": "b805c9d5-aecc-4d2e-b1fa-29c54b9ca9f1",
+        "text": "I was doing it in AWS and switched to GCP to get the better support. Once I figure out, I will try the same in AWS and hope I can help people in future.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gf1be007ed35",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f1be007ed35dc88f3b7614270a939d97.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Lee",
+            "real_name": "Lee",
+            "display_name": "Lee",
+            "team": "T01ATQK62F8",
+            "name": "leeheeyeon81",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674087666.869199",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1674179154.877319",
+        "reply_users": [
+            "U04DDG2JZ40",
+            "U04AZ7RTYRM"
+        ],
+        "replies": [
+            {
+                "user": "U04DDG2JZ40",
+                "ts": "1674127748.129639"
+            },
+            {
+                "user": "U04AZ7RTYRM",
+                "ts": "1674179154.877319"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bdqX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I was doing it in AWS and switched to GCP to get the better support. Once I figure out, I will try the same in AWS and hope I can help people in future."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,165 @@
+[
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675026213.331349",
+        "client_msg_id": "669491cc-b0cb-4507-860a-7f94c3dfd516",
+        "text": "Thanks <@U04HQTU756J> - I am also trying to pursue this in AWS. Your repo was helpful. So, far I have created terraform script to create(and destroy) EC2 and automatically install airflow as docker, an S3 bucket, redshift cluster.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675026213.331349",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1675065004.175739",
+        "reply_users": [
+            "U04F8J811DK"
+        ],
+        "replies": [
+            {
+                "user": "U04F8J811DK",
+                "ts": "1675065004.175739"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kra",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U04HQTU756J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " - I am also trying to pursue this in AWS. Your repo was helpful. So, far I have created terraform script to create(and destroy) EC2 and automatically install airflow as docker, an S3 bucket, redshift cluster."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U04HQTU756J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675026223.334769",
+        "client_msg_id": "53f4933b-bb02-4c52-a222-5dd7c0c81160",
+        "text": "Are you using airflow or prefect?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675026223.334769",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1675067742.727679",
+        "reply_users": [
+            "U04HQTU756J"
+        ],
+        "replies": [
+            {
+                "user": "U04HQTU756J",
+                "ts": "1675067742.727679"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "upZm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Are you using airflow or prefect?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04F8J811DK",
+        "type": "message",
+        "ts": "1675065004.175739",
+        "client_msg_id": "9e4aac44-62c4-4add-8743-88599d16999a",
+        "text": "Hi, please can you share your github repo?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "63aacdd60968",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-12-14\/4524025621732_63aacdd609680ed7bc4f_72.jpg",
+            "first_name": "Ayodeji",
+            "real_name": "Ayodeji Ibimilua",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "ayodejiibimilua4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675026213.331349",
+        "parent_user_id": "U04K5Q7V326",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gALJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, please can you share your github repo?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

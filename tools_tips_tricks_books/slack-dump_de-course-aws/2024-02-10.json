@@ -1,0 +1,152 @@
+[
+    {
+        "user": "U03S8TF9USK",
+        "type": "message",
+        "ts": "1707586442.353099",
+        "client_msg_id": "a07c35a7-11aa-4b24-869e-b0a22024a8e8",
+        "text": "And you’re doing this in Mage? The specified error makes it sound like you’re passing the AWS profile name in addition to credentials.\n```It is not valid to provide any of the access key I'd,secret access key, or session token when profile is provided.```",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "9163651d60bc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-14\/6471261484611_9163651d60bcec9cafea_72.png",
+            "first_name": "Jonathon",
+            "real_name": "Jonathon Kobyluck",
+            "display_name": "Jonathon Kobyluck",
+            "team": "T01ATQK62F8",
+            "name": "comet.cetera",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706786636.305999",
+        "parent_user_id": "U06ADQ65879",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hYfuI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And you’re doing this in Mage? The specified error makes it sound like you’re passing the AWS profile name in addition to credentials.\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It is not valid to provide any of the access key I'd,secret access key, or session token when profile is provided."
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03S8TF9USK",
+        "type": "message",
+        "ts": "1707586511.911819",
+        "client_msg_id": "0bb588bf-3bae-41e8-970c-1e1198ee7bba",
+        "text": "In io_config.yaml for Mage, I’m specifying the following:\n```dev:\n  AWS_ACCESS_KEY_ID:\n  AWS_SECRET_ACCESS_KEY:\n  AWS_REGION:```",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "9163651d60bc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-14\/6471261484611_9163651d60bcec9cafea_72.png",
+            "first_name": "Jonathon",
+            "real_name": "Jonathon Kobyluck",
+            "display_name": "Jonathon Kobyluck",
+            "team": "T01ATQK62F8",
+            "name": "comet.cetera",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706786636.305999",
+        "parent_user_id": "U06ADQ65879",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p5YiO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "In io_config.yaml for Mage, I’m specifying the following:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "dev:\n  AWS_ACCESS_KEY_ID:\n  AWS_SECRET_ACCESS_KEY:\n  AWS_REGION:"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03S8TF9USK",
+        "type": "message",
+        "ts": "1707586617.535329",
+        "client_msg_id": "43aa0e1f-a3eb-4f51-bd8c-f5646f4ab140",
+        "text": "Can the above be done in place of specifying in io_config.yaml?\n```dev:\n  AWS_ACCESS_KEY_ID:\n  AWS_SECRET_ACCESS_KEY:\n  AWS_REGION:```",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "9163651d60bc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-14\/6471261484611_9163651d60bcec9cafea_72.png",
+            "first_name": "Jonathon",
+            "real_name": "Jonathon Kobyluck",
+            "display_name": "Jonathon Kobyluck",
+            "team": "T01ATQK62F8",
+            "name": "comet.cetera",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706869294.209739",
+        "parent_user_id": "U06D31H28MP",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TYkln",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Can the above be done in place of specifying in io_config.yaml?\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "dev:\n  AWS_ACCESS_KEY_ID:\n  AWS_SECRET_ACCESS_KEY:\n  AWS_REGION:"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

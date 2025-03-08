@@ -1,0 +1,194 @@
+[
+    {
+        "user": "U07MLLSKCUA",
+        "type": "message",
+        "ts": "1738503202.148299",
+        "edited": {
+            "user": "U07MLLSKCUA",
+            "ts": "1738597362.000000"
+        },
+        "client_msg_id": "2d819ee7-e8f0-4969-83ab-dc9655aeea79",
+        "text": "1.) I was able to run `02_postgres_taxi_scheduled.yaml` and `02_postgres_taxi.yaml` with my configuration\/the config you gave in the video. The given config in the github repo didn’t work on macOS. ~Just said failed, when running the flows. I couldn’t really inspect\/find a more descriptive error message. Maybe problem with database~\n\nUPDATE: had to fix `02_postgres_taxi.yaml`\n```pluginDefaults:\n  - type: io.kestra.plugin.jdbc.postgresql\n    values:\n      url: jdbc:<postgresql:\/\/postgres:5432\/nyc_taxi>\n      username: postgres\n      password: postgres```\nBut this is still lacking Athena, right?\n\nShould I follow <https:\/\/kestra.io\/blueprints\/ingest-to-datalake-event-driven|this “guide”> to setup Athena? How do I setup Athena on AWS (haven’t tried, just asking for pitfalls and best settings)? How can I modify `06_gcp_taxi_scheduled.yaml` and `06_gcp_taxi.yaml`  to run on  aws?\n\nWhat do I have too configure to connect to the RDS database from my local computer (macOS 15.3) with DBeaver? Always getting a timeout error. I can connect with `pgcli` on my EC2 instance. Do I have to ssh-tunnel with DBeaver to the instance first? UPDATE: It worked with a ssh tunnel (followed <https:\/\/medium.com\/@dogukannulu\/dbeaver-and-amazon-rds-mysql-connection-b4b4a345d885|this guide)>.\n\n(I also watch <https:\/\/www.youtube.com\/watch?v=3q8FbiR-t8g|this> to familiarize with Kestra)\n\nThe main channel is so cluttered, it would take hours to search for help,",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "100796daf577",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-23\/7792223177280_100796daf577201c46d7_72.png",
+            "first_name": "Till",
+            "real_name": "Till Meineke",
+            "display_name": "Till",
+            "team": "T01ATQK62F8",
+            "name": "till.meineke",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738437982.675149",
+        "parent_user_id": "U07MLLSKCUA",
+        "attachments": [
+            {
+                "from_url": "https:\/\/kestra.io\/blueprints\/ingest-to-datalake-event-driven",
+                "image_url": "https:\/\/kestra.io\/og-image.png",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 594045,
+                "service_icon": "https:\/\/kestra.io\/apple-touch-icon.png",
+                "id": 1,
+                "original_url": "https:\/\/kestra.io\/blueprints\/ingest-to-datalake-event-driven",
+                "fallback": "Event-driven data ingestion to AWS S3 data lake managed by Apache Iceberg, AWS Glue and Amazon Athena",
+                "text": "This workflow ingests data to an S3 data lake using a Python script.\nThis script is stored in a public GitHub repository so you can directly use this workflow as long as you adjust your AWS credentials, S3 bucket name and the Amazon Athena table name. The script takes the detected S3 object key from the S3 event trigger as input argument and ingests it into the Iceberg table. The script runs in a Docker container -- the image provided here is public, feel free to use it. Alternatively, you can install the required pip dependencies using the beforeCommands property.",
+                "title": "Event-driven data ingestion to AWS S3 data lake managed by Apache Iceberg, AWS Glue and Amazon Athena",
+                "title_link": "https:\/\/kestra.io\/blueprints\/ingest-to-datalake-event-driven",
+                "service_name": "kestra.io"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iFuLf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1.) I was able to run "
+                            },
+                            {
+                                "type": "text",
+                                "text": "02_postgres_taxi_scheduled.yaml",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "02_postgres_taxi.yaml",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " with my configuration\/the config you gave in the video. The given config in the github repo didn’t work on macOS. "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Just said failed, when running the flows. I couldn’t really inspect\/find a more descriptive error message. Maybe problem with database",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nUPDATE: had to fix "
+                            },
+                            {
+                                "type": "text",
+                                "text": "02_postgres_taxi.yaml",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pluginDefaults:\n  - type: io.kestra.plugin.jdbc.postgresql\n    values:\n      url: jdbc:"
+                            },
+                            {
+                                "type": "link",
+                                "url": "postgresql:\/\/postgres:5432\/nyc_taxi"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n      username: postgres\n      password: postgres"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nBut this is still lacking Athena, right?\n\nShould I follow "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/kestra.io\/blueprints\/ingest-to-datalake-event-driven",
+                                "text": "this “guide”"
+                            },
+                            {
+                                "type": "text",
+                                "text": " to setup Athena? How do I setup Athena on AWS (haven’t tried, just asking for pitfalls and best settings)? How can I modify "
+                            },
+                            {
+                                "type": "text",
+                                "text": "06_gcp_taxi_scheduled.yaml",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "06_gcp_taxi.yaml",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  to run on  aws?\n\nWhat do I have too configure to connect to the RDS database from my local computer (macOS 15.3) with DBeaver? Always getting a timeout error. I can connect with "
+                            },
+                            {
+                                "type": "text",
+                                "text": "pgcli",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " on my EC2 instance. Do I have to ssh-tunnel with DBeaver to the instance first? UPDATE: It worked with a ssh tunnel (followed "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/medium.com\/@dogukannulu\/dbeaver-and-amazon-rds-mysql-connection-b4b4a345d885",
+                                "text": "this guide)"
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n\n(I also watch "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=3q8FbiR-t8g",
+                                "text": "this"
+                            },
+                            {
+                                "type": "text",
+                                "text": " to familiarize with Kestra)\n\nThe main channel is so cluttered, it would take hours to search for help,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

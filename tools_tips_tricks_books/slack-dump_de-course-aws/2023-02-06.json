@@ -1,0 +1,128 @@
+[
+    {
+        "user": "U04KAKTJDS5",
+        "type": "message",
+        "ts": "1675678113.469439",
+        "client_msg_id": "36dadb60-537d-47b2-8ce3-44347b6efe18",
+        "text": "<@U04K5Q7V326> it's running locally.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "cceae3807eae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-03-02\/4901090484545_cceae3807eae08dccbc4_72.png",
+            "first_name": "Mwanthi",
+            "real_name": "Mwanthi Daniel",
+            "display_name": "Mwanthi Daniel",
+            "team": "T01ATQK62F8",
+            "name": "dmwanthi2",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675638968.338249",
+        "parent_user_id": "U04KAKTJDS5",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y6JCf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04K5Q7V326"
+                            },
+                            {
+                                "type": "text",
+                                "text": " it's running locally."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04KAKTJDS5",
+        "type": "message",
+        "ts": "1675685452.043009",
+        "client_msg_id": "c16fe863-5d6b-47cb-aba6-dc5dacc06e36",
+        "text": "It worked! I decided to set both the `from_path` and `local_path` optional and it worked. So the problem is with my `from_path,` which is easy to debug.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "cceae3807eae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-03-02\/4901090484545_cceae3807eae08dccbc4_72.png",
+            "first_name": "Mwanthi",
+            "real_name": "Mwanthi Daniel",
+            "display_name": "Mwanthi Daniel",
+            "team": "T01ATQK62F8",
+            "name": "dmwanthi2",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675638968.338249",
+        "parent_user_id": "U04KAKTJDS5",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7GX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It worked! I decided to set both the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "from_path",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "local_path",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " optional and it worked. So the problem is with my "
+                            },
+                            {
+                                "type": "text",
+                                "text": "from_path,",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " which is easy to debug."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04K5Q7V326"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

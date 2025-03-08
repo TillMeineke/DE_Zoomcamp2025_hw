@@ -1,0 +1,40 @@
+[
+    {
+        "user": "U04QXEDPD4G",
+        "type": "message",
+        "ts": "1713228729.997289",
+        "client_msg_id": "ce327017-0068-4b71-b9c4-589d2013837c",
+        "text": "Hi, anyone here used stepfunction to orchestrate the pipeline??",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "2270da01ef1d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-02-17\/4817199170118_2270da01ef1d4c82a2db_72.png",
+            "first_name": "Aditya",
+            "real_name": "Aditya Bharadwaj",
+            "display_name": "Aditya Bharadwaj",
+            "team": "T01ATQK62F8",
+            "name": "sgaditya.bharadwaj",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nmL1c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, anyone here used stepfunction to orchestrate the pipeline??"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

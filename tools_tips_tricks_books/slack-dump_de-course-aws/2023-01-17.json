@@ -1,0 +1,430 @@
+[
+    {
+        "user": "U030YJBRE20",
+        "type": "message",
+        "ts": "1673943462.440879",
+        "edited": {
+            "user": "U030YJBRE20",
+            "ts": "1673943558.000000"
+        },
+        "client_msg_id": "c409e1fa-254a-4d3a-9d89-c7f27ad09bdf",
+        "text": "Hi,\nI will be doing the course in AWS and wanted to know if anyone has thought already of they want to do the mapping. My initial ideas are:\n• using Cloudformation instead of Terraform\n• using S3 instead of GCS\n• using Redshift instead of BigQuery\n• for Spark use Amazon EMR \n• for Kafka use MSK \nabout the last 2 I am not sure.\nI will surely use Prefect",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gde9058c7a1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/de9058c7a1f24da9002862ffff80e5f4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "JaimeRV",
+            "real_name": "JaimeRV",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "jaime.raldua.veuthey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673943462.440879",
+        "reply_count": 5,
+        "reply_users_count": 4,
+        "latest_reply": "1673975407.373849",
+        "reply_users": [
+            "U04K74D6PM2",
+            "U04HQTU756J",
+            "U04DMUQ6MSS",
+            "U030YJBRE20"
+        ],
+        "replies": [
+            {
+                "user": "U04K74D6PM2",
+                "ts": "1673945942.845229"
+            },
+            {
+                "user": "U04HQTU756J",
+                "ts": "1673949539.355579"
+            },
+            {
+                "user": "U04DMUQ6MSS",
+                "ts": "1673967265.238869"
+            },
+            {
+                "user": "U04HQTU756J",
+                "ts": "1673968320.502439"
+            },
+            {
+                "user": "U030YJBRE20",
+                "ts": "1673975407.373849"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gRRNi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi,\nI will be doing the course in AWS and wanted to know if anyone has thought already of they want to do the mapping. My initial ideas are:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "using Cloudformation instead of Terraform"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "using S3 instead of GCS"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "using Redshift instead of BigQuery"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "for Spark use Amazon EMR "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "for Kafka use MSK "
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nabout the last 2 I am not sure.\nI will surely use Prefect"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04K74D6PM2",
+                    "U04HQTU756J",
+                    "U04DMUQ6MSS",
+                    "U020EG9D6R1",
+                    "U04EWN1J4EA"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "user": "U04K74D6PM2",
+        "type": "message",
+        "ts": "1673945942.845229",
+        "edited": {
+            "user": "U04K74D6PM2",
+            "ts": "1673945970.000000"
+        },
+        "client_msg_id": "73187F24-BC9A-4A55-B415-4DF6AC200E3F",
+        "text": "I’m also not familiar to gcp, but i also never used the data engineering related services in AWS \nnow i’m confused what to choose ",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "ecde9bddfd61",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-18\/4648138259223_ecde9bddfd613d8dc5de_72.png",
+            "first_name": "Jagadish",
+            "real_name": "Jagadish Dachepalli",
+            "display_name": "Jagadish D",
+            "team": "T01ATQK62F8",
+            "name": "jagadish.dachepalli",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673943462.440879",
+        "parent_user_id": "U030YJBRE20",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s9+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I’m also not familiar to gcp, but i also never used the data engineering related services in AWS \nnow i’m confused what to choose "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1673949539.355579",
+        "client_msg_id": "a3c7f0d4-7d60-42a7-b911-d4ee38147a34",
+        "text": "<@U04K74D6PM2> you can always just use a EC2 instance, most of the other offerings are just EC2 with preinstalled\/configured software.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673943462.440879",
+        "parent_user_id": "U030YJBRE20",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OX=\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04K74D6PM2"
+                            },
+                            {
+                                "type": "text",
+                                "text": " you can always just use a EC2 instance, most of the other offerings are just EC2 with preinstalled\/configured software."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04DMUQ6MSS",
+        "type": "message",
+        "ts": "1673967265.238869",
+        "client_msg_id": "289B2BE6-B70A-4527-BE13-7C1472232B0C",
+        "text": "Is Athena more closer to BQ than Redshift ?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g539bb4dcc7d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/539bb4dcc7d1641f9a53e90648c54400.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Sandeep",
+            "real_name": "Sandeep",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "sandeepgame07",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673943462.440879",
+        "parent_user_id": "U030YJBRE20",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hxC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is Athena more closer to BQ than Redshift ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04HQTU756J",
+        "type": "message",
+        "ts": "1673968320.502439",
+        "client_msg_id": "b8f96e8a-3a03-4caf-a1c7-46c9840055f7",
+        "text": "<@U04DMUQ6MSS> nope, Redshift is basically equivalent to BigQuerry.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "eaa3da718d4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-27\/4720991837649_eaa3da718d4f58116287_72.jpg",
+            "first_name": "Zharko",
+            "real_name": "Zharko Cekovski",
+            "display_name": "Zharko Cekovski",
+            "team": "T01ATQK62F8",
+            "name": "zharkoc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673943462.440879",
+        "parent_user_id": "U030YJBRE20",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A=ykI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04DMUQ6MSS"
+                            },
+                            {
+                                "type": "text",
+                                "text": " nope, Redshift is basically equivalent to BigQuerry."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04DMUQ6MSS",
+                    "U04K74D6PM2"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U030YJBRE20",
+        "type": "message",
+        "ts": "1673975407.373849",
+        "client_msg_id": "768d8f6d-c9d0-4299-b8be-c13086f75154",
+        "text": "I think it would also be very interesting using Athena on the S3 data lake though. <@U04DMUQ6MSS> let me know if you try that",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gde9058c7a1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/de9058c7a1f24da9002862ffff80e5f4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "JaimeRV",
+            "real_name": "JaimeRV",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "jaime.raldua.veuthey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673943462.440879",
+        "parent_user_id": "U030YJBRE20",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SxGBL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think it would also be very interesting using Athena on the S3 data lake though. "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U04DMUQ6MSS"
+                            },
+                            {
+                                "type": "text",
+                                "text": " let me know if you try that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04F8J811DK",
+        "type": "message",
+        "ts": "1673991668.416579",
+        "client_msg_id": "ad6c8b36-f12c-4b98-911b-45b29ce45d5b",
+        "text": "Hello guys, I am only interested in using redshift instead of big query because I am unable to set up my card on GCP",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "63aacdd60968",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-12-14\/4524025621732_63aacdd609680ed7bc4f_72.jpg",
+            "first_name": "Ayodeji",
+            "real_name": "Ayodeji Ibimilua",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "ayodejiibimilua4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ELN=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hello guys, I am only interested in using redshift instead of big query because I am unable to set up my card on GCP"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U030YJBRE20"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "user": "U030YJBRE20",
+        "type": "message",
+        "ts": "1674478757.255999",
+        "client_msg_id": "767a9cf6-f084-4b16-934f-5760bffe6150",
+        "text": "I commited my version of terraform with AWS in <https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_1_basics_n_setup\/1_terraform_aws|this repo>. Any feedback is welcome.\nI am working on the cloudformation part with stuff I see on internet, will try to keep updating in that repo",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gde9058c7a1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/de9058c7a1f24da9002862ffff80e5f4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "JaimeRV",
+            "real_name": "JaimeRV",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "jaime.raldua.veuthey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_1_basics_n_setup\/1_terraform_aws",
+                "image_url": "https:\/\/opengraph.githubassets.com\/5677cb2ca29e3bb0c1831f929ad5a7769db6172bccdaa3f392f9658700d10f6e\/jralduaveuthey\/data-eng-zc-gcp-aws",
+                "image_width": 500,
+                "image_height": 250,
+                "image_bytes": 55901,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_1_basics_n_setup\/1_terraform_aws",
+                "fallback": "GitHub: data-eng-zc-gcp-aws\/week_1_basics_n_setup\/1_terraform_aws at main · jralduaveuthey\/data-eng-zc-gcp-aws",
+                "text": "Data Engineering ZC on GCP and AWS. Contribute to jralduaveuthey\/data-eng-zc-gcp-aws development by creating an account on GitHub.",
+                "title": "data-eng-zc-gcp-aws\/week_1_basics_n_setup\/1_terraform_aws at main · jralduaveuthey\/data-eng-zc-gcp-aws",
+                "title_link": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_1_basics_n_setup\/1_terraform_aws",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o5e",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I commited my version of terraform with AWS in "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_1_basics_n_setup\/1_terraform_aws",
+                                "text": "this repo"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Any feedback is welcome.\nI am working on the cloudformation part with stuff I see on internet, will try to keep updating in that repo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U04AZ7RTYRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

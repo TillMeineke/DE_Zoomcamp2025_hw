@@ -1,0 +1,44 @@
+[
+    {
+        "user": "U0464TCPUTU",
+        "type": "message",
+        "ts": "1677482651.450179",
+        "edited": {
+            "user": "U0464TCPUTU",
+            "ts": "1677482806.000000"
+        },
+        "client_msg_id": "290f5b5a-b4b7-42d6-bd40-2136c560ce82",
+        "text": "Hi everyone, I did not find any clear and step-by-step documentation on how to set up the AWS for DE course, can anyone provide the link to set up the AWS with terraform, please?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "g40036e1a91f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/3412ccb5d4ab83f60c6a53eb29ee53d2.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "ali",
+            "real_name": "ali raisi",
+            "display_name": "ali raisi",
+            "team": "T01ATQK62F8",
+            "name": "mohammad-ali.raisi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0+2u",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi everyone, I did not find any clear and step-by-step documentation on how to set up the AWS for DE course, can anyone provide the link to set up the AWS with terraform, please?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

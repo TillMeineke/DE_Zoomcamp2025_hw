@@ -1,0 +1,237 @@
+[
+    {
+        "subtype": "thread_broadcast",
+        "user": "U07LYVAQH8W",
+        "thread_ts": "1705595585.363769",
+        "root": {
+            "user": "U05HDNRKR7X",
+            "type": "message",
+            "ts": "1705595585.363769",
+            "client_msg_id": "624c5b70-e16b-4c84-bbc4-f86d1b2f9c8a",
+            "text": "I made my first use of AWS in the course today. I managed to authenticate Mage with AWS and export the transformed taxi rides data to an AWS S3 bucket in a parquet file. If you're trying that out and are stuck do feel free to reach out on this channel.",
+            "team": "T01ATQK62F8",
+            "thread_ts": "1705595585.363769",
+            "reply_count": 3,
+            "reply_users_count": 2,
+            "latest_reply": "1730189111.373959",
+            "reply_users": [
+                "U07LYVAQH8W",
+                "U05HDNRKR7X"
+            ],
+            "replies": [
+                {
+                    "user": "U07LYVAQH8W",
+                    "ts": "1730143299.570269"
+                },
+                {
+                    "user": "U05HDNRKR7X",
+                    "ts": "1730174135.722049"
+                },
+                {
+                    "user": "U07LYVAQH8W",
+                    "ts": "1730189111.373959"
+                }
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "50rHR",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "I made my first use of AWS in the course today. I managed to authenticate Mage with AWS and export the transformed taxi rides data to an AWS S3 bucket in a parquet file. If you're trying that out and are stuck do feel free to reach out on this channel."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "message",
+        "ts": "1730143299.570269",
+        "edited": {
+            "user": "U07LYVAQH8W",
+            "ts": "1730538910.000000"
+        },
+        "client_msg_id": "a4b21114-837a-44ab-b58e-07105a6213f0",
+        "text": "Hey <@U05HDNRKR7X> :blush:\nHow are you?\nI recently started the Matt Palmer's Mage course with AWS.\n\nI created my redshift database and my S3 bucket.\nI did try to authenticate Mage with AWS but\nI got the error connection refused ;\n`ConnectionRefusedError: [Errno 111] Connection refused`\n`InterfaceError: ('communication error', ConnectionRefusedError(111, 'Connection refused'))`\nI've been Stuck with that for 3 days...\nI have no clue what the issue is, I guess the network infrastructure (VPC, Security Group, ... ) but I have no idea what I did wrong.\n\nHere is my AWS *Network Setup*:\n• 1 VPC with 3 public and 3 private subnets\n• Route tables, 1 internet gateway, and 3 NAT gateways\n• redshift clusters\n• ec2 instances\nThe redshift cluster are in the private subnets and the ec2 instances are in the public ones.\n\nYour input\/advice will be a benediction!\nThank you\n<#C04J4U9NK46|de-course-aws>",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8wrfO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05HDNRKR7X"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "blush",
+                                "unicode": "1f60a"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nHow are you?\nI recently started the Matt Palmer's Mage course with AWS.\n\nI created my redshift database and my S3 bucket.\nI did try to authenticate Mage with AWS but\nI got the error connection refused ;\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ConnectionRefusedError: [Errno 111] Connection refused",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "InterfaceError: ('communication error', ConnectionRefusedError(111, 'Connection refused'))",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nI've been Stuck with that for 3 days...\nI have no clue what the issue is, I guess the network infrastructure (VPC, Security Group, ... ) but I have no idea what I did wrong.\n\nHere is my AWS "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Network Setup",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "1 VPC with 3 public and 3 private subnets"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Route tables, 1 internet gateway, and 3 NAT gateways"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "redshift clusters"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ec2 instances"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nThe redshift cluster are in the private subnets and the ec2 instances are in the public ones.\n\nYour input\/advice will be a benediction!\nThank you\n"
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "C04J4U9NK46"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05HDNRKR7X",
+        "type": "message",
+        "ts": "1730174135.722049",
+        "client_msg_id": "d6730e7d-d16a-479b-8f70-93ad6fb66743",
+        "text": "Hey Francois, I'm fine, I recommend looking into mage's documentation and also include the region of your s3 bucket in your environment variables. Do ask on the mage slack as well. It's been several months since I worked with it and it has probably changed a lot since then, so I don't have the exact solution. Let me know when you solve it :slightly_smiling_face:.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "49e73dc9aca2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-01-02\/6396493326903_49e73dc9aca2640eb070_72.jpg",
+            "first_name": "Aditya",
+            "real_name": "Aditya Tiwari",
+            "display_name": "Aditya Tiwari",
+            "team": "T01ATQK62F8",
+            "name": "adityatiwarimail006mi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705595585.363769",
+        "parent_user_id": "U05HDNRKR7X",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OnV\/k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey Francois, I'm fine, I recommend looking into mage's documentation and also include the region of your s3 bucket in your environment variables. Do ask on the mage slack as well. It's been several months since I worked with it and it has probably changed a lot since then, so I don't have the exact solution. Let me know when you solve it "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face",
+                                "unicode": "1f642"
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

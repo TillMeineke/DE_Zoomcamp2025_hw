@@ -1,0 +1,103 @@
+[
+    {
+        "user": "U04AZ7RTYRM",
+        "type": "message",
+        "ts": "1673827561.154919",
+        "edited": {
+            "user": "U04AZ7RTYRM",
+            "ts": "1673827636.000000"
+        },
+        "client_msg_id": "58dd3323-5f93-45c3-b058-cebe93a0eead",
+        "text": "I use AWS Cloud Desktop. I get this error when trying to install Docker. Anyone installed it differently? I followed <https:\/\/www.youtube.com\/watch?v=ae-CV2KfoN0&amp;list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&amp;ab_channel=DataTalksClub%E2%AC%9B|this video> (17:12).\n\n```base ❯ sudo apt-get install <http:\/\/docker.io|docker.io>\nsudo: apt-get: command not found```",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gf1be007ed35",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f1be007ed35dc88f3b7614270a939d97.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Lee",
+            "real_name": "Lee",
+            "display_name": "Lee",
+            "team": "T01ATQK62F8",
+            "name": "leeheeyeon81",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673827561.154919",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1673887684.927749",
+        "reply_users": [
+            "U04AZ7RTYRM"
+        ],
+        "replies": [
+            {
+                "user": "U04AZ7RTYRM",
+                "ts": "1673887670.799849"
+            },
+            {
+                "user": "U04AZ7RTYRM",
+                "ts": "1673887684.927749"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.youtube.com\/watch?v=ae-CV2KfoN0&amp;ab_channel=DataTalksClub%E2%AC%9B",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/ae-CV2KfoN0\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/ae-CV2KfoN0?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"DE Zoomcamp 1.4.1 - Setting up the Environment on Google Cloud (Cloud VM + SSH access)\"><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 1,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=ae-CV2KfoN0&amp;list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&amp;ab_channel=DataTalksClub%E2%AC%9B",
+                "fallback": "YouTube Video: DE Zoomcamp 1.4.1 - Setting up the Environment on Google Cloud (Cloud VM + SSH access)",
+                "title": "DE Zoomcamp 1.4.1 - Setting up the Environment on Google Cloud (Cloud VM + SSH access)",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=ae-CV2KfoN0&amp;ab_channel=DataTalksClub%E2%AC%9B",
+                "author_name": "DataTalksClub ⬛",
+                "author_link": "https:\/\/www.youtube.com\/@DataTalksClub",
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NP\/Dt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I use AWS Cloud Desktop. I get this error when trying to install Docker. Anyone installed it differently? I followed "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=ae-CV2KfoN0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&ab_channel=DataTalksClub%E2%AC%9B",
+                                "text": "this video"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (17:12).\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "base ❯ sudo apt-get install docker.io\nsudo: apt-get: command not found"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "user": "U02TNEJLC84",
+        "type": "message",
+        "ts": "1715029641.782209",
+        "client_msg_id": "5b7deaa0-4eef-46c6-927d-d82553b94c17",
+        "text": "You can give it a shot. I'd go with t2.large if you can to be safe.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "bf49548fbad6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-03-24\/4991276822935_bf49548fbad6f05aface_72.jpg",
+            "first_name": "Michael",
+            "real_name": "Michael Shoemaker",
+            "display_name": "Michael Shoemaker",
+            "team": "T01ATQK62F8",
+            "name": "michaelshoemaker50",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1714886949.414539",
+        "parent_user_id": "U066HSCK553",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TzoGx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You can give it a shot. I'd go with t2.large if you can to be safe."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

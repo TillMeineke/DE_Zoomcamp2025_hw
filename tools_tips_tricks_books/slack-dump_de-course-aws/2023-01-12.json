@@ -1,0 +1,61 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U04JNQ1MVTJ",
+        "text": "<@U04JNQ1MVTJ> has joined the channel",
+        "type": "message",
+        "ts": "1673518956.251939"
+    },
+    {
+        "user": "U0346E21X4H",
+        "type": "message",
+        "ts": "1673537452.238379",
+        "client_msg_id": "576f35b8-7d35-4e8f-9b84-521543ca963e",
+        "text": "Are we planning on following the engineering class the Zoom camp provides with AWS or we have another program outline?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "3577c5606586",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-19\/7587379210246_3577c56065867af68e0c_72.jpg",
+            "first_name": "Damola",
+            "real_name": "Damola Obadeji",
+            "display_name": "Damola Obadeji",
+            "team": "T01ATQK62F8",
+            "name": "damoxy12",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "68YT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Are we planning on following the engineering class the Zoom camp provides with AWS or we have another program outline?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U04JMBTDAMN",
+        "text": "<@U04JMBTDAMN> has joined the channel",
+        "type": "message",
+        "ts": "1673565686.406839"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U04JJTY46CW",
+        "text": "<@U04JJTY46CW> has joined the channel",
+        "type": "message",
+        "ts": "1673577718.045509"
+    }
+]

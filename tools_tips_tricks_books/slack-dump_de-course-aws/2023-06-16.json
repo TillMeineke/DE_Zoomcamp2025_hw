@@ -1,0 +1,40 @@
+[
+    {
+        "user": "U05BY2NUU9K",
+        "type": "message",
+        "ts": "1686916571.159259",
+        "client_msg_id": "123b6906-97dd-4cc1-8fea-4fb35f328ea1",
+        "text": "Hey guys. I need a hand with a Data Engineering issue. I am currently being tested to solve a pyspark challenge. I do know (or at least think I do) how I could solve it, but I do not know enough of AWS. They created an S3 Bucket in AWS and what I believe are some temporary credentials to authenticate and the data.\nI have no issue connecting with BOTO3, but I think they want the connection directly with pyspark.\n\nIs it possible for me to create a local spark session and calling the data from the S3 Bucket?\n\nIf you have resources on where I can read about this, it would be highly appreciated.\n\nI don't have access to log into the AWS Cloud console or the platform in general other than the S3 bucket through Boto3, so I don't know what version of what they are currently using nor I can change any configuration on the AWS server side",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "decb35dc6397",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-06-12\/5409484436946_decb35dc63973947a9ab_72.jpg",
+            "first_name": "Christian",
+            "real_name": "Christian Lopez Rosales",
+            "display_name": "Chris Lop",
+            "team": "T01ATQK62F8",
+            "name": "chrislopezrosales",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KXo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey guys. I need a hand with a Data Engineering issue. I am currently being tested to solve a pyspark challenge. I do know (or at least think I do) how I could solve it, but I do not know enough of AWS. They created an S3 Bucket in AWS and what I believe are some temporary credentials to authenticate and the data.\nI have no issue connecting with BOTO3, but I think they want the connection directly with pyspark.\n\nIs it possible for me to create a local spark session and calling the data from the S3 Bucket?\n\nIf you have resources on where I can read about this, it would be highly appreciated.\n\nI don't have access to log into the AWS Cloud console or the platform in general other than the S3 bucket through Boto3, so I don't know what version of what they are currently using nor I can change any configuration on the AWS server side"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

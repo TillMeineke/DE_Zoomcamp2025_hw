@@ -1,0 +1,438 @@
+[
+    {
+        "user": "U030YJBRE20",
+        "type": "message",
+        "ts": "1675944189.363569",
+        "client_msg_id": "2364e8f4-fbcb-4cd5-bd7b-1e67d6bdd7b7",
+        "text": "I wrote part of the queries. BQ uses partition and cluster but in RS the closest thing I think are sort key and distribution keys. I do not know much about them translate also this part in the future.\n\nThe RS ML part I entirely skipped since I am not interested in ML inside DWHs.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gde9058c7a1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/de9058c7a1f24da9002862ffff80e5f4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "JaimeRV",
+            "real_name": "JaimeRV",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "jaime.raldua.veuthey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675908338.770749",
+        "parent_user_id": "U04K5Q7V326",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E3CDT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I wrote part of the queries. BQ uses partition and cluster but in RS the closest thing I think are sort key and distribution keys. I do not know much about them translate also this part in the future.\n\nThe RS ML part I entirely skipped since I am not interested in ML inside DWHs."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U030YJBRE20",
+        "type": "message",
+        "ts": "1675944436.455069",
+        "client_msg_id": "53c3e3c4-d9b9-4e52-9ae4-88f40af493ec",
+        "text": "In week 4 what AWS alterntatives are you considering for Google Data Studio? I checked Quicksight and it is too expensive for hobby projects.\nMetabase cloud is also expensive and metabase open source with own hosting seems too complicated compared to Google Data Studio.\n\nIn the previous weeks I have not experienced much different in pricing so both vendors could be used for the whole project, but since Google Data Studio is free makes me think that GCP is overall better for small pipelines where BI is needed. Interested in hearing other comments on this",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gde9058c7a1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/de9058c7a1f24da9002862ffff80e5f4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "JaimeRV",
+            "real_name": "JaimeRV",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "jaime.raldua.veuthey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JvV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "In week 4 what AWS alterntatives are you considering for Google Data Studio? I checked Quicksight and it is too expensive for hobby projects.\nMetabase cloud is also expensive and metabase open source with own hosting seems too complicated compared to Google Data Studio.\n\nIn the previous weeks I have not experienced much different in pricing so both vendors could be used for the whole project, but since Google Data Studio is free makes me think that GCP is overall better for small pipelines where BI is needed. Interested in hearing other comments on this"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04F5STHCP8",
+        "type": "message",
+        "ts": "1675948289.701799",
+        "client_msg_id": "524ce6e1-4b15-4c7b-875c-3ea1082a8385",
+        "text": "Hi all, I just came across the de zoom camp and decided to join in. I also want to use aws instead of gcp. Do you know if the free tier will be enough to cover all the things covered in the course, or do I have do put some money in to get everything running.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "9f78fbb625e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-12-15\/4522509936306_9f78fbb625e50209f47b_72.jpg",
+            "first_name": "David",
+            "real_name": "David Gilles",
+            "display_name": "David Gilles",
+            "team": "T01ATQK62F8",
+            "name": "davidgilles69",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2zTtU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi all, I just came across the de zoom camp and decided to join in. I also want to use aws instead of gcp. Do you know if the free tier will be enough to cover all the things covered in the course, or do I have do put some money in to get everything running."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675948918.993679",
+        "client_msg_id": "2be65f0f-8c47-450b-bcdc-b1a3e976e8e2",
+        "text": "You can do this with free tier or at least under a very tight budget. Redshift is free for 2 months I think, you can create small EC2s for free. As of now, my average daily cost has been around 20 cents. Use Lambdas to maybe do the compute, which has a generous free compute.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZhE9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You can do this with free tier or at least under a very tight budget. Redshift is free for 2 months I think, you can create small EC2s for free. As of now, my average daily cost has been around 20 cents. Use Lambdas to maybe do the compute, which has a generous free compute."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675948942.688899",
+        "client_msg_id": "e76a50f3-4a55-407e-b513-f1c1fd4c219a",
+        "text": "How did you import data into Redshift?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675908338.770749",
+        "parent_user_id": "U04K5Q7V326",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zihIV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "How did you import data into Redshift?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675949213.365119",
+        "text": "So, far I have used EC2 to host an airflow server. Which, I try to only turn on when I want to run my job. Airflow triggers lambda to do any compute(download data from github as gz, extract csv from gz or convert to parquet, and copy to redshift. This is my 3 step pipeline as of now.",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/datatalks-club.slack.com\/archives\/C04J4U9NK46\/p1675948918993679",
+                "ts": "1675948918.993679",
+                "author_id": "U04K5Q7V326",
+                "channel_id": "C04J4U9NK46",
+                "channel_team": "T01ATQK62F8",
+                "is_msg_unfurl": true,
+                "message_blocks": [
+                    {
+                        "team": "T01ATQK62F8",
+                        "channel": "C04J4U9NK46",
+                        "ts": "1675948918.993679",
+                        "message": {
+                            "blocks": [
+                                {
+                                    "type": "rich_text",
+                                    "block_id": "ZhE9",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "You can do this with free tier or at least under a very tight budget. Redshift is free for 2 months I think, you can create small EC2s for free. As of now, my average daily cost has been around 20 cents. Use Lambdas to maybe do the compute, which has a generous free compute."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "color": "D0D0D0",
+                "is_share": true,
+                "fallback": "[February 9th, 2023 8:21 AM] deepak03108: You can do this with free tier or at least under a very tight budget. Redshift is free for 2 months I think, you can create small EC2s for free. As of now, my average daily cost has been around 20 cents. Use Lambdas to maybe do the compute, which has a generous free compute.",
+                "text": "You can do this with free tier or at least under a very tight budget. Redshift is free for 2 months I think, you can create small EC2s for free. As of now, my average daily cost has been around 20 cents. Use Lambdas to maybe do the compute, which has a generous free compute.",
+                "author_name": "Deepak Walia",
+                "author_link": "https:\/\/datatalks-club.slack.com\/team\/U04K5Q7V326",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_48.png",
+                "author_subname": "Deepak Walia",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "footer": "Slack Conversation"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "V0LGF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So, far I have used EC2 to host an airflow server. Which, I try to only turn on when I want to run my job. Airflow triggers lambda to do any compute(download data from github as gz, extract csv from gz or convert to parquet, and copy to redshift. This is my 3 step pipeline as of now."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U04F5STHCP8",
+                    "U04FDP114DV"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U030YJBRE20",
+        "type": "message",
+        "ts": "1675955800.314139",
+        "client_msg_id": "268896d1-3974-43d7-a610-e2f7a46d5cfb",
+        "text": "<https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_2_workflow_orchestration\/prefect-zoomcamp\/flows\/02_aws>",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "gde9058c7a1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/de9058c7a1f24da9002862ffff80e5f4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "JaimeRV",
+            "real_name": "JaimeRV",
+            "display_name": "",
+            "team": "T01ATQK62F8",
+            "name": "jaime.raldua.veuthey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675908338.770749",
+        "parent_user_id": "U04K5Q7V326",
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_2_workflow_orchestration\/prefect-zoomcamp\/flows\/02_aws",
+                "image_url": "https:\/\/opengraph.githubassets.com\/10aacdd30fcbd8a3ce9c70ca99c9cd390141b171614f902043815210db7e6b51\/jralduaveuthey\/data-eng-zc-gcp-aws",
+                "image_width": 500,
+                "image_height": 250,
+                "image_bytes": 56531,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_2_workflow_orchestration\/prefect-zoomcamp\/flows\/02_aws",
+                "fallback": "GitHub: data-eng-zc-gcp-aws\/week_2_workflow_orchestration\/prefect-zoomcamp\/flows\/02_aws at main · jralduaveuthey\/data-eng-zc-gcp-aws",
+                "text": "Data Engineering ZC on GCP and AWS. Contribute to jralduaveuthey\/data-eng-zc-gcp-aws development by creating an account on GitHub.",
+                "title": "data-eng-zc-gcp-aws\/week_2_workflow_orchestration\/prefect-zoomcamp\/flows\/02_aws at main · jralduaveuthey\/data-eng-zc-gcp-aws",
+                "title_link": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_2_workflow_orchestration\/prefect-zoomcamp\/flows\/02_aws",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HjinK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/jralduaveuthey\/data-eng-zc-gcp-aws\/tree\/main\/week_2_workflow_orchestration\/prefect-zoomcamp\/flows\/02_aws"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U04K5Q7V326",
+                    "U04HQTU756J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675996000.992519",
+        "client_msg_id": "50c2305b-5c38-473c-9248-7648fb1717d5",
+        "text": "Did it work for you?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675801054.708889",
+        "parent_user_id": "U04NG5FJYTD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pHlG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Did it work for you?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U04K5Q7V326",
+        "type": "message",
+        "ts": "1675996694.500439",
+        "client_msg_id": "d9a13efa-e95a-451a-b3b2-bb1dbd3f7f93",
+        "text": "Are you running these .py files from your local or on ecs?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "58b40d4e07b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-16\/4675520923120_58b40d4e07b0e99ea562_72.png",
+            "first_name": "Deepak",
+            "real_name": "Deepak Walia",
+            "display_name": "Deepak Walia",
+            "team": "T01ATQK62F8",
+            "name": "deepak03108",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675908338.770749",
+        "parent_user_id": "U04K5Q7V326",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7H0ga",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Are you running these .py files from your local or on ecs?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

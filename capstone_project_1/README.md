@@ -18,41 +18,189 @@ Finding relevant job opportunities in the data field requires searching through 
 
 The pipeline consists of the following components:
 
-1. **Data Collection**: Web scraper for Stepstone
-2. **Data Storage**: AWS S3 for raw data, AWS Athena for querying, AWS Redshift for structured storage
-3. **Data Processing**: dlt for ingestion, dbt for transformation
-4. **Orchestration**: Kestra for workflow management
-5. **Visualization**: Metabase for dashboards
+```mermaid
+graph TD
+    %% Data Collection and Ingestion
+    A[Web Scraper<br>Stepstone] --> B[dlt<br>Ingestion]
+    B --> C[(S3<br>Bronze Layer 🥉)]
+    
+    %% Data Processing - Athena Path
+    C --> D[AWS Athena]
+    D --> E1[dbt<br>Bronze to Silver]
+    E1 --> F[(S3<br>Silver Layer 🥈)]
+    F --> E2[dbt<br>Silver to Gold]
+    E2 --> G[(S3<br>Gold Layer 🥇)]
+    
+    %% Alternative Data Warehouse Path
+    C --> R[AWS Glue ETL]
+    R --> E1
+    
+    %% Data Access and Visualization
+    G --> H[Metabase<br>Dashboards]
+    
+    %% Infrastructure Management
+    subgraph Terraform[Terraform Managed Infrastructure]
+        C
+        D
+        R
+        F
+        G
+    end
+
+    subgraph DockerCompose[Docker Compose Managed Applications]
+        A
+        B
+        E1
+        E2
+        H
+        K[Kestra<br>Orchestration]
+    end
+    
+    %% Infrastructure and Orchestration
+    I[Terraform<br>IaC] -.->|Provisions| Terraform
+    
+    K -->|Schedules| A
+    K -->|Manages| B
+    K -->|Triggers| E1
+    K -->|Triggers| E2
+    
+    %% CI/CD Integration
+    CI[GitHub Actions<br>CI/CD] -.->|Deploys| DockerCompose
+    CI -.->|Validates| I
+```
+
+1. **Data Collection**: Web scraper for Stepstone with robust error handling and retry mechanisms
+2. **Data Storage**: AWS S3 for raw data (bronze layer), AWS Athena for querying, optimized storage formats
+3. **Data Processing**:
+   - dlt for ingestion with validation
+   - dbt for bronze to silver transformation (cleaning and standardizing data)
+   - dbt for silver to gold transformation (creating analytics-ready tables)
+4. **Orchestration**: Kestra for workflow management, monitoring, and alerting
+5. **Visualization**: Metabase for interactive dashboards and insights delivery
+
+### AWS Service Selection: Athena vs. Redshift vs. Glue
+
+For this project, we've made a cost-conscious decision regarding AWS services:
+
+#### AWS Athena: Primary Analytics Engine
+
+- **Cost-effective**: Pay only for the queries you run ($5 per TB scanned)
+- **Serverless**: No infrastructure to manage
+- **Simplicity**: Direct querying of data in S3 using standard SQL
+- **Integration**: Works seamlessly with our S3 data lake approach
+
+#### AWS Glue: Alternative to Redshift
+
+- **Why Glue instead of Redshift?**
+  - Redshift is unnecessary for our current data volume and workload
+  - Redshift requires provisioned clusters (minimum ~$200/month even when idle)
+  - Our analytical needs can be met with Athena + occasional Glue ETL jobs
+  
+- **Glue Benefits**:
+  - Serverless ETL service with pay-per-use pricing
+  - Automatic schema discovery with Data Catalog
+  - Only pay for ETL job runtime (typically cheaper for batch workloads)
+  - Integrates well with both S3 and Athena
+  
+- **Cost Comparison**:
+  - Redshift: $0.25-$4.80 per hour per node (24/7) + storage costs
+  - Glue: ~$0.44 per DPU-hour (only when jobs are running)
+  - For our batch pipeline, Glue could be 70-90% cheaper than Redshift
+
+#### Simplest and Cheapest Solution
+
+For our current requirements, the most cost-effective architecture is:
+
+1. S3 for storage (bronze, silver, gold layers)
+2. AWS Athena for SQL querying capabilities
+3. AWS Glue for more complex ETL when needed
+4. dbt for most transformations
+
+This approach offers:
+
+- Minimal fixed costs (only S3 storage)
+- Pay-per-query model with Athena
+- Flexibility to scale up or down based on actual usage
+- No complex infrastructure to maintain
+
+### Infrastructure Management
+
+The project uses a dual infrastructure management approach:
+
+#### Terraform-Managed Infrastructure
+
+- **AWS Cloud Resources**: All cloud resources including S3 buckets, Athena workgroups, and AWS Glue ETL jobs
+- **IAM Roles & Policies**: Security configurations for AWS services
+- **Network Configuration**: VPC, Security Groups, and network access rules
+
+#### Docker Compose-Managed Applications
+
+- **Kestra**: Workflow orchestration engine running in containers
+- **Metabase**: Dashboard and visualization platform running in containers
+- **Local Development Services**: Any additional services needed for local development
+- **Application Configuration**: Environment variables and service connections
+
+This separation allows for:
+
+1. **Cloud Infrastructure Consistency**: Terraform ensures cloud resources are provisioned consistently
+2. **Application Portability**: Docker Compose makes application deployment consistent across environments
+3. **Local Development**: Ability to run applications locally while connecting to cloud or mock resources
+4. **Clear Separation of Concerns**: Distinct responsibilities for infrastructure vs. application management
+
+### Component Management
+
+- **AWS Resources** (S3, Athena, Glue): Provisioned through Terraform
+- **Kestra**: Run as Docker containers managed by Docker Compose
+- **dbt**: Executed either locally or through Kestra workflows
+- **Metabase**: Deployed as a Docker container
+- **CI/CD Pipeline**: GitHub Actions for testing and deployment automation
+
+## Technologies Used
+
+- **Cloud**: AWS (S3, Athena, Glue)
+- **Infrastructure as Code**: Terraform for reproducible infrastructure provisioning
+- **Workflow Orchestration**: Kestra for reliable pipeline scheduling and management
+- **Data Ingestion**: Python scraper with dlt for structured batch processing
+- **Data Warehouse**: AWS Athena with optimized partitioning and Parquet compression
+- **ETL Processing**: AWS Glue for complex transformations
+- **Transformations**: dbt for modular, testable SQL-based transformations
+- **Dashboard**: Metabase with multiple visualization tiles and automated refresh
 
 ## Dataset
 
 The dataset contains job listings with attributes including:
 
-- Job title and description
-- Company information
-- Location
-- Salary information (when available)
-- Required skills
-- Employment type (full-time, part-time, etc.)
-- Remote work options
-- Date posted
+- Job title and description (with standardized categorization)
+- Company information and industry
+- Location details with geocoding for spatial analysis
+- Salary information (when available) with standardized ranges
+- Required skills and technologies (extracted and normalized)
+- Experience level requirements
+- Employment type (full-time, part-time, contract, etc.)
+- Remote work options (fully remote, hybrid, on-site)
+- Date posted and application deadlines
+- Benefits and perks mentioned
 
-## Setup and Installation
+## Reproducibility: Setup and Installation
 
 ### Prerequisites
 
 - Python 3.11.8
-- AWS account
-- Docker
-- Terraform
+- AWS account with appropriate permissions
+- Docker and Docker Compose (for application services)
+- Terraform (for cloud infrastructure)
+- Make
 
-### Installation Steps
+### Step 1: Clone the Repository
 
 ```bash
-# Clone the repository
 git clone <repository-url>
 cd job-market-data-pipeline
+```
 
+### Step 2: Set Up Environment
+
+```bash
 # Create and activate virtual environment
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -61,162 +209,153 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Configuration
-
-The project uses several configuration files for different components:
-
-1. **Environment Variables**: Copy `.env.example` to `.env` and fill in your values:
+### Step 3: Configure AWS Infrastructure with Terraform
 
 ```bash
+# Copy configuration examples and edit with your values
 cp .env.example .env
-# Edit .env with your configuration
-```
-
-2. **Terraform Variables**: For infrastructure deployment:
-
-```bash
-# Copy example file
 cp infrastructure/terraform/terraform.tfvars.example infrastructure/terraform/terraform.tfvars
-# Edit with your specific values
-```
-
-3. **Environment Setup Script**: For setting Terraform environment variables:
-
-```bash
-# Copy example script
 cp infrastructure/terraform/set_env.sh.example infrastructure/terraform/set_env.sh
-# Edit with your credentials
+
+# Edit terraform.tfvars with your settings
 chmod +x infrastructure/terraform/set_env.sh
 source infrastructure/terraform/set_env.sh
+
+# Deploy cloud infrastructure
+cd infrastructure/terraform
+terraform init
+terraform apply
 ```
 
-## Usage
-
-### Running the Scraper
-
-The scraper is implemented in Python:
+### Step 4: Deploy Application Services with Docker Compose
 
 ```bash
-cd scraper
-python stepstone.py
-```
-
-### Running the Pipeline
-
-The pipeline is orchestrated using Kestra:
-
-```bash
-# Start Kestra
+# Start application services
 docker-compose up -d
 
-# Deploy workflows
+# Deploy Kestra workflows
 kestra deployments create --from ./pipeline/kestra_workflows
+
+# Start Metabase and configure data sources
+docker-compose logs metabase # To get initial setup URL
 ```
 
-### Deploying Infrastructure
-
-Infrastructure is managed with Terraform:
+### Step 5: Run Transformations
 
 ```bash
-cd infrastructure/terraform
-
-# Option 1: Using terraform.tfvars
-terraform init
-terraform plan
-terraform apply
-
-# Option 2: Using environment variables
-source set_env.sh
-terraform init
-terraform plan
-terraform apply
-```
-
-### CI/CD Pipeline
-
-The project includes GitHub Actions workflows for CI/CD. To set it up:
-
-1. Add required secrets to your GitHub repository:
-   - `AWS_ACCESS_KEY_ID`
-   - `AWS_SECRET_ACCESS_KEY`
-   - `AWS_REGION`
-   - All required `TF_VAR_*` variables
-
-2. The workflow will automatically run on pushes to the main branch or pull requests that modify Terraform files.
-
-### Database Schema
-
-The database schema is managed with dbt:
-
-```bash
+# Run dbt models
 cd dbt
 dbt run
 ```
+
+### Step 6: Access the Dashboard
+
+Open Metabase at <http://localhost:3000> and access the job market dashboard.
+
+## Data Ingestion (Batch Processing)
+
+This project uses batch processing with the following workflow:
+
+1. **Web Scraping**: Python scraper runs daily to collect new job postings
+2. **Data Validation**: Validation and cleaning of scraped data
+3. **S3 Storage**: Raw data stored in S3 with date partitioning
+4. **Orchestration**: Full pipeline managed by Kestra with error handling and retries
+
+## Data Warehouse
+
+The data warehouse is designed using AWS Athena with performance optimizations:
+
+1. **Table Design**:
+   - Job listings partitioned by posting_date for efficient time-series queries
+   - Compressed Parquet format for faster queries and reduced costs
+   - Optimized column ordering based on common query patterns
+
+2. **Optimization Strategies**:
+   - Partition pruning for efficient filtering
+   - Column projection to minimize data scanned
+   - Strategic data partitioning to reduce query costs
+   - Views for common query patterns
+
+## Transformations
+
+Data transformations are managed with dbt:
+
+1. **Bronze Layer** 🥉: Raw data from S3
+2. **Silver Layer** 🥈: Cleaned and standardized data
+   - Standardized job titles and categories
+   - Extracted skills from descriptions
+   - Normalized company information
+3. **Gold Layer** 🥇: Analytics-ready tables
+   - Aggregated metrics by company, location, and skill
+   - Time-series data for trend analysis
+
+## Dashboard
+
+The Metabase dashboard provides insights with multiple visualization tiles:
+
+1. **Job Postings by Category**: Pie chart showing distribution of jobs across categories
+2. **Temporal Trends**: Line graph showing job posting volume over time
+3. **Skills in Demand**: Bar chart of most requested skills
+4. **Salary Distribution**: Box plot of salary ranges by job category
+5. **Geographic Distribution**: Map visualization of job locations
+
+## Terraform State Management
+
+This project follows standard Terraform practices for state management:
+
+1. **Local State (Development)**: Default for initial development
+2. **Remote State (Team/Production)**: S3 backend for team collaboration
+
+### Remote State Setup
+
+```bash
+# Create the state bucket (one-time setup)
+aws s3api create-bucket \
+  --bucket terraform-state-job-pipeline \
+  --region eu-central-1 \
+  --create-bucket-configuration LocationConstraint=eu-central-1
+
+# Enable versioning for state protection
+aws s3api put-bucket-versioning \
+  --bucket terraform-state-job-pipeline \
+  --versioning-configuration Status=Enabled
+```
+
+4. **Deployment**: Automatic deployment to development environment
 
 ## Project Structure
 
 ```
 stepstone-pipeline/
-├── .github/
-│   └── workflows/
-│       ├── ci.yml
-│       └── terraform-deploy.yml
-├── scraper/
-│   ├── stepstone.py
-│   └── helpers.py
-├── pipeline/
-│   ├── dlt_ingestion/
-│   └── kestra_workflows/
-├── dbt/
-│   ├── models/
-│   ├── analyses/
-│   └── tests/
-├── dashboard/
-│   └── metabase_configs/
-├── infrastructure/
-│   ├── terraform/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   ├── outputs.tf
-│   │   ├── terraform.tfvars.example
-│   │   ├── set_env.sh.example
-│   │   └── README.md
-│   └── kubernetes/
-├── tests/
-│   ├── unit/
-│   └── integration/
-├── .env.example
-├── .gitignore
-└── README.md
+├── .github/workflows/          # CI/CD configuration
+├── scraper/                    # Web scraper code
+├── pipeline/                   # Data pipeline components
+│   ├── dlt_ingestion/          # Data ingestion with dlt
+│   └── kestra_workflows/       # Kestra workflow definitions
+├── dbt/                        # Data transformations
+│   ├── models/                 # dbt models by layer (bronze, silver, gold)
+│   ├── analyses/               # Ad-hoc analytical queries
+│   └── tests/                  # Data quality tests
+├── dashboard/                  # Dashboard configurations
+├── infrastructure/             # IaC with Terraform
+├── tests/                      # Unit and integration tests
+├── docs/                       # Additional documentation
+└── README.md                   # Project documentation
 ```
+
+## Security Best Practices
+
+- All sensitive configuration files are excluded from version control
+- IAM roles follow the principle of least privilege
+- Network security with VPC and security groups
+- Encryption for data at rest and in transit
 
 ## Future Enhancements
 
 - Add more job portals (LinkedIn, Indeed, etc.)
-- Implement automated scheduled scraping
-- Create a REST API for querying job data
-- Develop ML models for job recommendation
-- Build a web interface for exploring job data
-
-## Technology Stack
-
-- **Programming Language**: Python
-- **Data Processing**: Pandas, NumPy
-- **Web Scraping**: BeautifulSoup4, Scrapy
-- **Data Storage**: AWS S3, AWS Athena, AWS Redshift
-- **Orchestration**: Kestra
-- **Transformation**: dbt
-- **Infrastructure as Code**: Terraform
-- **CI/CD**: GitHub Actions
-- **Visualization**: Metabase
-
-## Security Best Practices
-
-- All sensitive configuration files are added to `.gitignore`
-- Example configuration files are provided without sensitive data
-- Environment variables are used for CI/CD pipelines
-- Infrastructure credentials are never stored in the code
-- Following the principle of least privilege for AWS IAM roles
+- Implement NLP for better skill extraction
+- Build a recommendation system
+- Create a REST API for querying data
 
 ## License
 

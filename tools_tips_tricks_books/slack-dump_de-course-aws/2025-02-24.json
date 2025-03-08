@@ -1,0 +1,178 @@
+[
+    {
+        "text": "Oh no, for me the 90 day limit kicked in again (see pic)\ncan anyone without limit repost some of the repositories from previous cohorts?\n\nHas anyone done HW4? <https:\/\/docs.getdbt.com\/docs\/core\/connect-data-platform\/athena-setup|Athena> or <https:\/\/docs.getdbt.com\/docs\/core\/connect-data-platform\/redshift-setup|Redshift>, what is the best solution for our use case (data already in S3, ec2 instance setup)? And how much <https:\/\/docs.getdbt.com\/docs\/core\/connect-data-platform\/glue-setup|Glue> do we need?",
+        "files": [
+            {
+                "id": "F08ERK5Q7S6",
+                "created": 1740403811,
+                "timestamp": 1740403811,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U07MLLSKCUA",
+                "user_team": "T01ATQK62F8",
+                "editable": false,
+                "size": 65698,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T01ATQK62F8-F08ERK5Q7S6\/image.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T01ATQK62F8-F08ERK5Q7S6\/download\/image.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_64.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_80.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_360.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_360_w": 360,
+                "thumb_360_h": 82,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_480.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_480_w": 480,
+                "thumb_480_h": 110,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_160.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_720.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_720_w": 720,
+                "thumb_720_h": 164,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_800.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_800_w": 800,
+                "thumb_800_h": 183,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_960.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_960_w": 960,
+                "thumb_960_h": 219,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T01ATQK62F8-F08ERK5Q7S6-2086330716\/image_1024.png?t=xoxe-1367835206518-8535751234149-8539711641652-a533d25dda894da98ea4d1f3adb9bc95",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 234,
+                "original_w": 1138,
+                "original_h": 260,
+                "thumb_tiny": "AwAKADCooG0cUuB\/dqOigB+B6Cg7cYGM0yigByhT1bH4UEKBw2fwptFAH\/\/Z",
+                "permalink": "https:\/\/datatalks-club.slack.com\/files\/U07MLLSKCUA\/F08ERK5Q7S6\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T01ATQK62F8-F08ERK5Q7S6-2ca0b62a2d",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U07MLLSKCUA",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Epz\/c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Oh no, for me the 90 day limit kicked in again (see pic)\ncan anyone without limit repost some of the repositories from previous cohorts?\n\nHas anyone done HW4? "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.getdbt.com\/docs\/core\/connect-data-platform\/athena-setup",
+                                "text": "Athena"
+                            },
+                            {
+                                "type": "text",
+                                "text": " or "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.getdbt.com\/docs\/core\/connect-data-platform\/redshift-setup",
+                                "text": "Redshift"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", what is the best solution for our use case (data already in S3, ec2 instance setup)? And how much "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.getdbt.com\/docs\/core\/connect-data-platform\/glue-setup",
+                                "text": "Glue"
+                            },
+                            {
+                                "type": "text",
+                                "text": " do we need?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1740404077.796249",
+        "edited": {
+            "user": "U07MLLSKCUA",
+            "ts": "1740650205.000000"
+        },
+        "client_msg_id": "6e40fc82-1800-4f14-9a7a-46e6f11ef127",
+        "thread_ts": "1740404077.796249",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1740405089.050369",
+        "reply_users": [
+            "U07MLLSKCUA"
+        ],
+        "replies": [
+            {
+                "user": "U07MLLSKCUA",
+                "ts": "1740405089.050369"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false
+    },
+    {
+        "user": "U07MLLSKCUA",
+        "type": "message",
+        "ts": "1740405089.050369",
+        "client_msg_id": "b941d95a-6f77-441f-a6d8-5ad513a91d5e",
+        "text": "Would <https:\/\/docs.aws.amazon.com\/quicksight\/latest\/user\/welcome.html|AWS QuickSight> be the equivalent to Google Looker studio? Should we use this instead of metabase?",
+        "team": "T01ATQK62F8",
+        "user_team": "T01ATQK62F8",
+        "source_team": "T01ATQK62F8",
+        "user_profile": {
+            "avatar_hash": "100796daf577",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-23\/7792223177280_100796daf577201c46d7_72.png",
+            "first_name": "Till",
+            "real_name": "Till Meineke",
+            "display_name": "Till",
+            "team": "T01ATQK62F8",
+            "name": "till.meineke",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1740404077.796249",
+        "parent_user_id": "U07MLLSKCUA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CCtXc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Would "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.aws.amazon.com\/quicksight\/latest\/user\/welcome.html",
+                                "text": "AWS QuickSight"
+                            },
+                            {
+                                "type": "text",
+                                "text": " be the equivalent to Google Looker studio? Should we use this instead of metabase?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
