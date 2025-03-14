@@ -84,3 +84,24 @@ Setup in VSCode, create `.github` folder and add `copilot-instructions.md` file 
 For specific instructions, create a `prompts` folder inside `.github` and add `.prompt.md` files for each prompt.
 
 [AI-Dev-Project-Setup-Prompts](https://notes.switchdimension.com/AI-Dev-Project-Setup-Prompts-18fb5b07a94380758bd6e92baa5e8c98)
+
+- These prompts help set up comprehensive project documentation for your LLM development
+- Documentation is essential for:
+  - Helping your LLM understand the project scope
+  - Supporting you as a product creator/developer
+  - Understanding software development flow
+- Working through this process will:
+  - Raise important project questions
+  - Reveal alternative approaches
+  - Generate new ideas
+- Getting started:
+  - Paste the first prompt into an LLM
+  - Iterate with the model
+  - Save each output as a file for use with subsequent prompts
+
+>>[!IMPORTANT]
+> ⚡️Quick Instructions: First, paste the Product Expert Prompt into o3 Mini and answer its questions. Next, paste the PRD output and UX prompt into a new chat and answer those questions. Finally, add both the PRD and UX documents to the context of another new chat, paste in the Software Architect prompt, and answer its questions.
+
+1. Use [Product requirements prompt](../.github/prompts/01_product_requirements.prompt.md) to work with an expert product manager to create your requirements. Save result as `PRD.md` in `doc/`-folder.
+2. Work with a expert UX designer to figure out how you should approach the design of this App. Use the [UI Design prompt](../.github/prompts/02_UI_design_doc.prompt.md) in your LLM and attach the `PRD.md` with it.
+3. Work with a Development Architect to figure out how to build your app. It’s a good idea not to be too prescriptive with your preferred stack. Before you start the doc. Have the model come up with unbiased ideas of how to build to identify new options. Add the previous docs with these prompts as attachments. Paste in the two previous docs to the chat window before proceeding with this prompt or create a project and attach them as files.

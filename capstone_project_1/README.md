@@ -343,6 +343,39 @@ stepstone-pipeline/
 └── README.md                   # Project documentation
 ```
 
+## Implementation Status
+
+### 1. Data Collection (🟡 In Progress)
+- [x] Created the scraper module structure
+- [x] Implemented `StepstoneScraper` for extracting job listings
+- [x] Built `JobParser` for structured data extraction
+- [x] Added unit tests for scraper components
+- [ ] Implement data saving functionality
+- [ ] Add support for other job portals
+
+### 2. Data Storage (🟢 Configured)
+- [x] Created S3 buckets in Terraform
+- [x] Configured folder structure for bronze data layer
+- [ ] Implement dlt pipeline for structured ingestion
+- [ ] Set up data validation
+
+### 3. Data Processing (🔴 Not Started)
+- [ ] Create dbt models for transformations
+- [ ] Implement standardization logic
+- [ ] Build analytics views
+
+### 4. Orchestration (🔴 Not Started)
+- [ ] Create Kestra workflows
+- [ ] Set up scheduling and monitoring
+
+### 5. Visualization (🔴 Not Started)
+- [ ] Configure Metabase instance
+- [ ] Create dashboards for job market insights
+
+### Module Documentation
+Each major component of the project has its own README for more detailed documentation:
+- [Scraper Module](/src/scraper/README.md) - Web scraper implementation
+
 ## Security Best Practices
 
 - All sensitive configuration files are excluded from version control
