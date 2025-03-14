@@ -90,3 +90,34 @@ class Config:
 
 # Default configuration instance
 config = Config.from_env()
+
+def get_config() -> Dict[str, Any]:
+    """
+    Get configuration as a dictionary.
+    
+    This function provides easy access to the configuration settings
+    for scripts that don't need the full Config object.
+    
+    Returns:
+        Dictionary representation of the configuration
+    """
+    return {
+        "environment": config.environment,
+        "scraper": {
+            "request_delay": config.scraper.request_delay,
+            "max_retries": config.scraper.max_retries,
+            "timeout": config.scraper.timeout,
+            "user_agent": config.scraper.user_agent,
+            "roles": config.scraper.roles,
+            "locations": config.scraper.locations,
+            "search_radius": config.scraper.search_radius,
+            "max_pages_per_search": config.scraper.max_pages_per_search
+        },
+        "storage": {
+            "local_data_dir": config.storage.local_data_dir,
+            "raw_data_dir": config.storage.raw_data_dir,
+            "processed_data_dir": config.storage.processed_data_dir,
+            "s3_bucket": config.storage.s3_bucket,
+            "s3_prefix": config.storage.s3_prefix
+        }
+    }
