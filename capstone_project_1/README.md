@@ -326,21 +326,17 @@ aws s3api put-bucket-versioning \
 ## Project Structure
 
 ```
-stepstone-pipeline/
-├── .github/workflows/          # CI/CD configuration
-├── scraper/                    # Web scraper code
-├── pipeline/                   # Data pipeline components
-│   ├── dlt_ingestion/          # Data ingestion with dlt
-│   └── kestra_workflows/       # Kestra workflow definitions
-├── dbt/                        # Data transformations
-│   ├── models/                 # dbt models by layer (bronze, silver, gold)
-│   ├── analyses/               # Ad-hoc analytical queries
-│   └── tests/                  # Data quality tests
-├── dashboard/                  # Dashboard configurations
-├── infrastructure/             # IaC with Terraform
-├── tests/                      # Unit and integration tests
-├── docs/                       # Additional documentation
-└── README.md                   # Project documentation
+.
+├── data
+│   ├── raw        # Bronze layer - raw data as collected
+│   ├── processed  # Silver layer - cleaned and processed data
+│   └── analytics  # Gold layer - analytics-ready data
+├── src
+│   ├── data_processing  # Code for data transformation
+│   ├── data_collection  # Code for collecting data
+│   └── analytics        # Code for analysis and insights
+├── scripts             # Executable scripts
+└── tests               # Unit tests
 ```
 
 ## Implementation Status
