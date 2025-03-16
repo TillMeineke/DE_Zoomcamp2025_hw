@@ -1,29 +1,15 @@
 #!/bin/bash
-# Example configuration file for Terraform environment variables
-# Copy this file to set_env.sh and replace placeholder values with real credentials
-# Usage: source set_env.sh
 
 # AWS credentials
-# Get these from your AWS IAM console: https://console.aws.amazon.com/iam/
-export AWS_ACCESS_KEY_ID="AKIAEXAMPLEKEYID"
-export AWS_SECRET_ACCESS_KEY="example/secret/access/key/value/1234567890"
-export AWS_REGION="eu-central-1"
+export AWS_ACCESS_KEY_ID="your-access-key"
+export AWS_SECRET_ACCESS_KEY="your-secret-key"
+export AWS_DEFAULT_REGION="eu-central-1"
 
 # Terraform variables
-# Authentication for Redshift
-export TF_VAR_redshift_master_username="admin"
-export TF_VAR_redshift_master_password="YourStrongPasswordHere123!"
+export TF_VAR_environment="dev"
+export TF_VAR_ec2_key_name="your-key-pair-name"
 
-# Environment configuration
-export TF_VAR_environment="dev"  # Options: dev, test, prod
-export TF_VAR_aws_region="eu-central-1"
+# Uncomment and set if you want to use a specific Terraform state backend
+# export TF_VAR_backend_bucket="terraform-state-job-pipeline"
 
-# Resource sizing - Adjust based on your workload requirements
-export TF_VAR_redshift_node_type="dc2.small"  # Smaller instance for development
-export TF_VAR_redshift_cluster_nodes=1  # Single node for development
-
-# Storage and database naming
-export TF_VAR_s3_bucket_name_prefix="job-market-data"
-export TF_VAR_athena_database_name="job_market_bronze"
-
-echo "Example Terraform environment variables - replace with real values before using"
+echo "Environment variables set for Terraform!"

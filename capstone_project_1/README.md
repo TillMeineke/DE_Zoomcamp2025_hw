@@ -323,6 +323,45 @@ aws s3api put-bucket-versioning \
 
 4. **Deployment**: Automatic deployment to development environment
 
+## Infrastructure Setup
+
+To set up the cloud infrastructure for this project, follow these steps:
+
+1. **Configure AWS CLI:**
+   Ensure you have the AWS CLI configured with your credentials and the necessary permissions.
+   ```sh
+   aws configure
+   ```
+
+2. **Set Environment Variables:**
+   Copy the `set_env.sh.example` file to `set_env.sh` and update the values with your AWS credentials and key pair name.
+   ```sh
+   cp infrastructure/terraform/set_env.sh.example infrastructure/terraform/set_env.sh
+   nano infrastructure/terraform/set_env.sh
+   ```
+   Source the environment variables:
+   ```sh
+   source infrastructure/terraform/set_env.sh
+   ```
+
+3. **Initialize Terraform:**
+   Navigate to the Terraform directory and initialize Terraform.
+   ```sh
+   cd infrastructure/terraform
+   terraform init
+   ```
+
+4. **Apply Terraform Configuration:**
+   Apply the Terraform configuration to create the AWS resources.
+   ```sh
+   terraform apply -var-file="terraform.tfvars"
+   ```
+
+5. **Verify Resources:**
+   Verify that the resources have been created successfully in the AWS Management Console.
+
+This will set up the S3 buckets, Athena workgroup and databases, and the EC2 instance with Kestra setup.
+
 ## Project Structure
 
 ```
