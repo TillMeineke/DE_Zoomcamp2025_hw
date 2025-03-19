@@ -4,7 +4,7 @@
 
 - [x] Learning in Public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_dezoomcamp-activity-7297246209037987840-tDeg?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz8pHsBzTCYoOQbUu8w3jNV1A1XuXbXLv0) on 17 February 2025
 
-- [x] Learning in Public 2: HW summary [LinkeIn](https://www.linkedin.com/posts/tillmeineke_dezoomcamp-dataengineering-dlt-activity-7297268394511245312-V32J?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz8pHsBzTCYoOQbUu8w3jNV1A1XuXbXLv0) on 17 February 2025
+- [x] Learning in Public 2: HW summary [LinkedIn](https://www.linkedin.com/posts/tillmeineke_dezoomcamp-dataengineering-dlt-activity-7297268394511245312-V32J?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz8pHsBzTCYoOQbUu8w3jNV1A1XuXbXLv0) on 17 February 2025
 
 - [x] Learning in Public 3: 🏗️ Data Ingestion with dlt – Simplifying ETL [LinkedIn](https://www.linkedin.com/posts/tillmeineke_dezoomcamp-dataengineering-etl-activity-7297270818588311554-CPEs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz8pHsBzTCYoOQbUu8w3jNV1A1XuXbXLv0) on 17 February 2025
 
